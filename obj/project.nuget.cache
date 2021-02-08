@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "I1KYwJcq+euOKWFWCOI28ck5iHPQtXcvxHYn2JtY3dGcrM5jBoo2E8aUcOpPWtRLLie8F2RJQsqBSTePUBnIpw==",
+  "success": true,
+  "projectFilePath": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marti\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.3\\microsoft.extensions.caching.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.3\\microsoft.extensions.caching.memory.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
