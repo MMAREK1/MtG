@@ -4,7 +4,7 @@ https://download.visualstudio.microsoft.com/download/pr/75483251-b77a-41a9-9ea2-
 
 v Príkazovom riadku sa treba dostat do priecinku kde sa tento projekt nachadza
 nasledne treba zadat
-dotnet run
+"dotnet run"
 to deploy-ne stranku a mozete prezerat karty na  
 http://localhost:5000/Karty
 
