@@ -10,9 +10,11 @@ http://localhost:5000/Karty
 
 vedla tlacidla Filter je dropdown list, ktory urcuje z akeho json suboru karty taha
 
-0VSETKY obsahuje vsetky moje karty bez informacie kolko kusov tych kariet mam
-zvysne tri som zrobil aby zobrazovalo aj pocet tak ako som ich dostal , zial FOIL/showcase/borderless informaciu som zatial este nezistil ako sprostredkovat
+0VSETKY obsahuje vsetky moje karty zatial bez aktualnej informacie kolko kusov tych kariet mam
+zvysne tri som zrobil aby zobrazovalo aj pocet tak ako som ich dostal 
 
+
+myska nad obrazkom zobrazi nazov karty, pocet kusov a ich efekty F - foil a S - showcase/borderless 
 po kliknuti na Transform a modal_dfc karty sa zobrazi druha strana
 
 filtre pracuju aj s druhou stranou , rarita funguje ako OR, zvysok ako AND
