@@ -281,7 +281,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230735&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Battershield-Warrior?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Battershield+Warrior&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87323?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -353,7 +353,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230208&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Blizzard-Brawl?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Blizzard+Brawl&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87661?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -570,7 +570,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230182&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Broken-Wings?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Broken+Wings&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87665?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -643,7 +643,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230182&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Broken-Wings?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Broken+Wings&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87665?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -651,7 +651,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Broken+Wings&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Broken+Wings",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Broken+Wings"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "1316a74e-da55-4668-87f2-98389a90a2a4",
@@ -718,7 +719,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230395&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Codespell-Cleric?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Codespell+Cleric&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87333?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -799,7 +800,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Dogged+Pursuit&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Dogged+Pursuit",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Dogged+Pursuit"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "6dae01c8-15bb-44ad-a2c6-9bcf7a9e8c17",
@@ -951,7 +953,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Doomskar+Oracle&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Doomskar+Oracle",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Doomskar+Oracle"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "ff1d88a6-a74d-44b5-b7a8-866e866807f1",
@@ -1017,7 +1020,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230867&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Dream-Devourer?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Dream+Devourer&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87507?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1104,7 +1107,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230446&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Elderleaf-Mentor?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Elderleaf+Mentor&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87667?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1173,7 +1176,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230188&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Faceless-Haven?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Faceless+Haven&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87859?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1242,7 +1245,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230188&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Faceless-Haven?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Faceless+Haven&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87859?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1250,7 +1253,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Faceless+Haven&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Faceless+Haven",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Faceless+Haven"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "0eba2250-0e9b-46fd-a4b5-23f30329e063",
@@ -1316,7 +1320,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230854&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Fearless-Pup?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Fearless+Pup&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87607?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1390,7 +1394,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230855&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Frenzied-Raider?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Frenzied+Raider&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87609?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1471,7 +1475,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Frost+Bite&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Frost+Bite",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Frost+Bite"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "3f406ce3-dce1-42d3-b76c-8e8c4b2770cb",
@@ -1538,7 +1543,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230495&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Frostpeak-Yeti?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Frostpeak+Yeti&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87441?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1611,7 +1616,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230418&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Frostpyre-Arcanist?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Frostpyre+Arcanist&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87443?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1619,20 +1624,17 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Frostpyre+Arcanist&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Frostpyre+Arcanist",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Frostpyre+Arcanist"
-    }
+    },
+    "Effects": "F"
   },
   {
-    "id": "71db3698-a45c-4eaf-87e6-30502c0c10f4",
+    "id": "0a625cc8-a09b-4bc2-a857-6c2283887916",
     "oracle_id": "6781f8ae-2a86-4e3d-bc43-48809c9d6c26",
-    "multiverse_ids": [
-      185698
-    ],
-    "mtgo_id": 34520,
-    "mtgo_foil_id": 34521,
-    "uri": "https://api.scryfall.com/cards/71db3698-a45c-4eaf-87e6-30502c0c10f4",
-    "scryfall_uri": "https://scryfall.com/card/zen/89/gatekeeper-of-malakir?utm_source=api",
+    "multiverse_ids": [],
+    "uri": "https://api.scryfall.com/cards/0a625cc8-a09b-4bc2-a857-6c2283887916",
+    "scryfall_uri": "https://scryfall.com/card/plist/96/gatekeeper-of-malakir?utm_source=api",
     "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A6781f8ae-2a86-4e3d-bc43-48809c9d6c26&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/71db3698-a45c-4eaf-87e6-30502c0c10f4/rulings",
+    "rulings_uri": "https://api.scryfall.com/cards/0a625cc8-a09b-4bc2-a857-6c2283887916/rulings",
     "name": "Gatekeeper of Malakir",
     "layout": "normal",
     "cmc": 2.0,
@@ -1661,21 +1663,21 @@
     },
     "reserved": false,
     "edhrec_rank": 4813,
-    "set": "zen",
-    "set_name": "Zendikar",
-    "collector_number": "89",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Azen&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/zen?utm_source=api",
+    "set": "plist",
+    "set_name": "The List",
+    "collector_number": "96",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aplist&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/plist?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.jpg?1562613273",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.jpg?1562613273",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.jpg?1562613273",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.png?1562613273",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.jpg?1562613273",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/1/71db3698-a45c-4eaf-87e6-30502c0c10f4.jpg?1562613273"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.jpg?1599769801",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.jpg?1599769801",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.jpg?1599769801",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.png?1599769801",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.jpg?1599769801",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/a/0a625cc8-a09b-4bc2-a857-6c2283887916.jpg?1599769801"
     },
     "highres_image": true,
-    "reprint": false,
+    "reprint": true,
     "digital": false,
     "rarity": "uncommon",
     "flavor_text": "\"You may enter the city—once the toll is paid.\"",
@@ -1685,12 +1687,11 @@
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=33300&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=222586&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Gatekeeper+of+Malakir&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/34520?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Gatekeeper+of+Malakir&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=185698",
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Gatekeeper+of+Malakir&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Gatekeeper+of+Malakir",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Gatekeeper+of+Malakir"
@@ -1761,7 +1762,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230433&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Giant-Ox?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Giant+Ox&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87341?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -1990,7 +1991,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Glittering+Frost&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Glittering+Frost",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Glittering+Frost"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "d9f08552-7f1a-4fdb-9a70-d99cdbf75910",
@@ -2057,7 +2059,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230898&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Glorious-Protector?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Glorious+Protector&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87343?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2132,7 +2134,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230501&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Gnottvold-Recluse?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Gnottvold+Recluse&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87683?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2283,7 +2285,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230897&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Grizzled-Outrider?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Grizzled+Outrider&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87685?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2358,7 +2360,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230210&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Guardian-Gladewalker?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Guardian+Gladewalker&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87687?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2433,7 +2435,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230896&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Horizon-Seeker?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Horizon+Seeker&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87689?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2506,7 +2508,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230895&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Icebind-Pillar?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Icebind+Pillar&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87451?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2579,7 +2581,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230895&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Icebind-Pillar?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Icebind+Pillar&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87451?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2652,7 +2654,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230895&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Icebind-Pillar?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Icebind+Pillar&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87451?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2660,7 +2662,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Icebind+Pillar&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Icebind+Pillar",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Icebind+Pillar"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "f1fdb9bb-09a2-4ff7-bcd4-35ea33c1b752",
@@ -2801,7 +2804,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230745&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Icehide-Troll?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Icehide+Troll&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87691?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2876,7 +2879,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230745&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Icehide-Troll?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Icehide+Troll&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87691?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2952,7 +2955,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230732&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Immersturm-Predator?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Immersturm+Predator&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87771?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -2960,7 +2963,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Immersturm+Predator&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Immersturm+Predator",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Immersturm+Predator"
-    }
+    },
+    "Effects": "S"
   },
   {
     "id": "7213d9e1-e9c6-45d8-bb7f-336c41e7b6f7",
@@ -3025,7 +3029,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230873&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Invoke-the-Divine?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Invoke+the+Divine&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87353?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3033,7 +3037,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Invoke+the+Divine&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Invoke+the+Divine",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Invoke+the+Divine"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "2fb38f5b-a2c2-4b06-8c9c-9615475a43e7",
@@ -3099,7 +3104,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230199&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Iron-Verdict?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Iron+Verdict&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87355?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3258,7 +3263,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Kardur%2C+Doomscourge&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Kardur%2C+Doomscourge",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Kardur%2C+Doomscourge"
-    }
+    },
+    "Effects": "FS"
   },
   {
     "id": "71a659b6-c4a8-4c0a-8b2a-07b6c9e27dfc",
@@ -3323,7 +3329,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230459&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/King-Haralds-Revenge?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=King+Harald%27s+Revenge&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87701?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3408,7 +3414,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Koll%2C+the+Forgemaster&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Koll%2C+the+Forgemaster",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Koll%2C+the+Forgemaster"
-    }
+    },
+    "Effects": "S"
   },
   {
     "id": "af0f1a90-af64-4122-9c1a-954edf8fa240",
@@ -3483,7 +3490,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Koma%27s+Faithful&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Koma%27s+Faithful",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Koma%27s+Faithful"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "a92dde51-310e-4f28-bd3b-d43b639785ec",
@@ -3550,7 +3558,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230846&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Littjara-Glade-Warden?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Littjara+Glade-Warden&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87707?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3621,7 +3629,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230729&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Littjara-Mirrorlake?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Littjara+Mirrorlake&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87879?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3695,7 +3703,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230398&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Mammoth-Growth?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Mammoth+Growth&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87709?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3771,7 +3779,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230197&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Moritte-of-the-Frost?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Moritte+of+the+Frost&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87789?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3848,7 +3856,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230451&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Narfi-Betrayer-King?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Narfi%2C+Betrayer+King&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87791?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -3944,7 +3952,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Path+to+the+World+Tree&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Path+to+the+World+Tree",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Path+to+the+World+Tree"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "f572cbb1-49ee-4c95-90a3-82704cf92454",
@@ -4006,7 +4015,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230449&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Raiders-Karve?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Raiders%27+Karve&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87827?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4092,17 +4101,13 @@
     }
   },
   {
-    "id": "bc148c21-cbe6-4cea-899b-e62501b59a00",
+    "id": "5d42a892-e5d4-4c73-8316-b7a08c5c09cc",
     "oracle_id": "74316be1-041f-4a2e-a296-0b496f90ca25",
-    "multiverse_ids": [
-      9839
-    ],
-    "mtgo_id": 17873,
-    "mtgo_foil_id": 17874,
-    "uri": "https://api.scryfall.com/cards/bc148c21-cbe6-4cea-899b-e62501b59a00",
-    "scryfall_uri": "https://scryfall.com/card/ons/104/read-the-runes?utm_source=api",
+    "multiverse_ids": [],
+    "uri": "https://api.scryfall.com/cards/5d42a892-e5d4-4c73-8316-b7a08c5c09cc",
+    "scryfall_uri": "https://scryfall.com/card/plist/314/read-the-runes?utm_source=api",
     "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A74316be1-041f-4a2e-a296-0b496f90ca25&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/bc148c21-cbe6-4cea-899b-e62501b59a00/rulings",
+    "rulings_uri": "https://api.scryfall.com/cards/5d42a892-e5d4-4c73-8316-b7a08c5c09cc/rulings",
     "name": "Read the Runes",
     "layout": "normal",
     "cmc": 1.0,
@@ -4129,21 +4134,21 @@
     },
     "reserved": false,
     "edhrec_rank": 4963,
-    "set": "ons",
-    "set_name": "Onslaught",
-    "collector_number": "104",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aons&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/ons?utm_source=api",
+    "set": "plist",
+    "set_name": "The List",
+    "collector_number": "314",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aplist&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/plist?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.jpg?1562939380",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.jpg?1562939380",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.jpg?1562939380",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.png?1562939380",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.jpg?1562939380",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/c/bc148c21-cbe6-4cea-899b-e62501b59a00.jpg?1562939380"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.jpg?1609987802",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.jpg?1609987802",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.jpg?1609987802",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.png?1609987802",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.jpg?1609987802",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/d/5d42a892-e5d4-4c73-8316-b7a08c5c09cc.jpg?1609987802"
     },
     "highres_image": true,
-    "reprint": false,
+    "reprint": true,
     "digital": false,
     "rarity": "rare",
     "flavor_text": "\"The world is a puzzle, and the mind is its key.\"",
@@ -4153,12 +4158,11 @@
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=10497&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer": "https://www.tcgplayer.com/search/magic/product?productLineName=magic&q=Read+the+Runes&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Read+the+Runes&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/17873?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Read+the+Runes&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=9839",
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Read+the+Runes&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Read+the+Runes",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Read+the+Runes"
@@ -4239,7 +4243,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230205&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Reckless-Crew?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Reckless+Crew&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87627?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4312,7 +4316,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230742&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Revitalize?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Revitalize&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87369?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4385,7 +4389,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230219&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Roots-of-Wisdom?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Roots+of+Wisdom&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87723?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4457,7 +4461,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230437&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Rune-of-Flight?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Rune+of+Flight&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87477?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4529,7 +4533,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230878&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Rune-of-Might?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Rune+of+Might&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87725?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4601,7 +4605,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230879&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Rune-of-Speed?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Rune+of+Speed&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87631?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4673,7 +4677,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230881&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Rune-of-Sustenance?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Rune+of+Sustenance&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87373?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -4741,7 +4745,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230517&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Runed-Crown?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Runed+Crown&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87833?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5049,7 +5053,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Sigrid%2C+God-Favored&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Sigrid%2C+God-Favored",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Sigrid%2C+God-Favored"
-    }
+    },
+    "Effects": "S"
   },
   {
     "id": "e692c208-c171-4964-9207-43c2cbc62845",
@@ -5114,7 +5119,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230183&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Snakeskin-Veil?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Snakeskin+Veil&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87731?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5188,7 +5193,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230181&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Spirit-of-the-Aldergard?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Spirit+of+the+Aldergard&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87733?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5263,7 +5268,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230933&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Starnheim-Courser?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Starnheim+Courser&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87387?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5271,7 +5276,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Starnheim+Courser&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Starnheim+Courser",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Starnheim+Courser"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "a67747a9-3299-4b4a-a4e0-e8a269c4f927",
@@ -5336,7 +5342,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230886&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Struggle-for-Skemfar?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Struggle+for+Skemfar&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87735?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5570,7 +5576,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230505&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/The-Bears-of-Littjara?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=The+Bears+of+Littjara&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87753?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5638,7 +5644,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230849&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Tyrite-Sanctum?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Tyrite+Sanctum&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87895?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5646,7 +5652,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Tyrite+Sanctum&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Tyrite+Sanctum",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Tyrite+Sanctum"
-    }
+    },
+    "Effects": "FS"
   },
   {
     "id": "8d18008f-10d2-4cdf-b4b5-7675782a8b0d",
@@ -5734,7 +5741,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230211&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Tyvar-Kell?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Tyvar+Kell&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87739?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5821,7 +5828,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230724&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Usher-of-the-Fallen?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Usher+of+the+Fallen&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87393?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -5906,7 +5913,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Vega%2C+the+Watcher&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Vega%2C+the+Watcher",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Vega%2C+the+Watcher"
-    }
+    },
+    "Effects": "S"
   },
   {
     "id": "f2392fbb-d9c4-4688-b99c-4e7614c60c12",
@@ -6050,7 +6058,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Volatile+Fjord&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Volatile+Fjord",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Volatile+Fjord"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "3fc98aff-edc0-4f78-ae4f-e08735c9e512",
@@ -6116,7 +6125,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230884&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Warhorn-Blast?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Warhorn+Blast&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87399?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -6124,7 +6133,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Warhorn+Blast&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Warhorn+Blast",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Warhorn+Blast"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "0fc2478f-e624-46fb-85af-1254564cd4d2",
@@ -6257,7 +6267,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230435&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Wings-of-the-Cosmos?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Wings+of+the+Cosmos&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87401?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -6330,7 +6340,7 @@
     "border_color": "black",
     "purchase_uris": {
       "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230435&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Kaldheim/Wings-of-the-Cosmos?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Wings+of+the+Cosmos&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
       "cardhoarder": "https://www.cardhoarder.com/cards/87401?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
@@ -6338,7 +6348,8 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Wings+of+the+Cosmos&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Wings+of+the+Cosmos",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Wings+of+the+Cosmos"
-    }
+    },
+    "Effects": "F"
   },
   {
     "id": "b2dd0b71-5a60-418c-82fc-f13d1b5075d0",
@@ -6410,6 +6421,7 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Woodland+Chasm&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Woodland+Chasm",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Woodland+Chasm"
-    }
+    },
+    "Effects": "F"
   }
 ]

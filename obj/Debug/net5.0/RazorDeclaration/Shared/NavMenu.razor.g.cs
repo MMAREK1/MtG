@@ -90,7 +90,7 @@ using Blazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "c:\priestor\MTG\Blazor\Shared\NavMenu.razor"
+#line 28 "c:\priestor\MTG\Blazor\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

@@ -29,6 +29,7 @@ namespace Blazor
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<KartyService>();
+            services.AddSingleton<AddService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

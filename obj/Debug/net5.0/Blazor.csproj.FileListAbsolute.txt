@@ -61,7 +61,10 @@ c:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.dll
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\ref\Blazor.dll
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.pdb
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.genruntimeconfig.cache
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\0VSETKY.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\1_balik.json
+c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Add.razor.g.cs
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\0VSETKY.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\2_balik.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\3_balik.json
+c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Add.razor.g.cs
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\test.json

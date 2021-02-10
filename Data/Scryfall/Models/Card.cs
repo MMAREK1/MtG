@@ -368,5 +368,7 @@ namespace Scryfall.API.Models
         [JsonProperty(PropertyName = "related_uris")]
         public IDictionary<string, string> RelatedUris { get; set; }
 
+        public string Effects { get; set; }
+        public int pocet { get; set; }
     }
 }
