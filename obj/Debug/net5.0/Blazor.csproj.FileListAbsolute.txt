@@ -67,4 +67,5 @@ c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\0VSETKY.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\2_balik.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\3_balik.json
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Add.razor.g.cs
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\test.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\4_balik.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Dodo.json

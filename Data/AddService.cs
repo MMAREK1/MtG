@@ -14,6 +14,9 @@ namespace Blazor.Data
 
         public Task<string> AddCards(string path,string pridat)
         {
+			Console.WriteLine("Zaciatok");
+			Console.WriteLine(path);
+			Console.WriteLine(pridat);
 			var subor = File.ReadAllText(@path);
 			var karty = JsonConvert.DeserializeObject<Scryfall.API.Models.Card[]>(subor, new Newtonsoft.Json.JsonSerializerSettings
 			{
@@ -25,8 +28,10 @@ namespace Blazor.Data
 
 			var scryfall = new ScryfallClient();
 			string[] riadky = pridat.Split(':');
+			int i = 0;
 			foreach (string zaznam in riadky)
 			{
+				i++;
 				string[] riadok = zaznam.Split(';');
 				var card = scryfall.Cards.GetNamed(riadok[0], null, riadok[1]);
 				if (card.CollectorNumber != riadok[4])
@@ -49,6 +54,7 @@ namespace Blazor.Data
 				}
 				for (int p = 0; p < Int32.Parse(riadok[2]); p++)
 					zoznam.Add(card);
+				Console.WriteLine(i + " : " + riadky.Count());
 			}
 			zoznam = zoznam.OrderBy(x => x.Name).ToList();
 			JsonSerializer serializer = new JsonSerializer();

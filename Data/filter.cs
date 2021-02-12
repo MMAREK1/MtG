@@ -16,5 +16,8 @@ namespace Blazor.Data
 		public bool Tricolor {get;set;}
 		public bool Fourcolor {get;set;}
 		public bool Fivecolor {get;set;}
+		public bool Foil { get; set; }
+		public bool Showcase { get; set; }
+		public string Edition { get; set; }
 	}
 }

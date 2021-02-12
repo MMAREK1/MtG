@@ -111,15 +111,17 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 146 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 160 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
        
     private Blazor.Data.Karty[] cards;
 	private int CurrentPage { get; set; } = 1;
     private int RecordsPerPage = 30;
 	private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
+	private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
 	private string[] fileEntries;
 	private List<string> files=new List<string>();
 	private string subor;
+	private string set;
 	private string cardName;
 	private string cardType;
 	private string cardText;
@@ -148,7 +150,10 @@ using System.Collections.Generic;
 	private bool Tricolor;
 	private bool Fourcolor;
 	private bool Fivecolor;
-	bool flipped;
+	private bool Foil;
+	private bool Showcase;
+	private bool Singleton;
+	bool flipped=true;
     void FlipMe()
     {
         flipped = !flipped;
@@ -200,6 +205,14 @@ using System.Collections.Generic;
         return cards.Skip(skip).Take(RecordsPerPage).ToList();
     }
 
+	private async Task Changed(ChangeEventArgs suborEvent)
+    {
+		set="0";
+		Sets.Clear();
+		subor=suborEvent.Value.ToString();
+		Sets.AddRange(await CardService.ListOfSets(subor));
+    }
+
     protected override async Task OnInitializedAsync()
     {
 		fileEntries = Directory.GetFiles(@"json\");
@@ -228,12 +241,18 @@ using System.Collections.Generic;
 		Tricolor=false;
 		Fourcolor=false;
 		Fivecolor=false;
+		Showcase=false;
+		Singleton=false;
+		Foil=false;
+		set="0";
 		cardName="";
 		cardType="";
 		cardText="";
 		CurrentPage=1;
 		subor=fileEntries[0];
         cards = await CardService.AllCards(subor);
+		Sets.Clear();
+		Sets.AddRange(await CardService.ListOfSets(subor));
 		count=cards.Length;
     }
 	
@@ -252,7 +271,7 @@ using System.Collections.Generic;
 	private async Task FindCards()
     {
 		CurrentPage=1;
-        cards = await CardService.FindCards(subor, new Blazor.Data.Filter{
+        cards = await CardService.FindCards(subor,Singleton, new Blazor.Data.Filter{
 			Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
 			CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
 			Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
@@ -285,7 +304,10 @@ using System.Collections.Generic;
 			Bicolor=Bicolor,
 			Tricolor=Tricolor,
 			Fourcolor=Fourcolor,
-			Fivecolor=Fivecolor		
+			Fivecolor=Fivecolor,
+			Foil=Foil,
+			Showcase=Showcase,
+			Edition=set
 		});
        count=cards.Length; 
     }

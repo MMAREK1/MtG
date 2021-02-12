@@ -87,11 +87,25 @@
 <input type="checkbox" @bind="Fivecolor" > Fivecolor<br>
 </table>
 </div>
+	<div class="col-xs-6 col-sm-3 col-md-3">
+		<br />
+<label for="Set">Set: </label>
+<select name="Set" @bind="@set">
+    @foreach(var zaznam in Sets)
+    {
+        <option value = "@zaznam.Code"> @zaznam.Name </option >
+    }
+</select><br />
+	<input type="checkbox" @bind="Foil" > Foil<br />
+	<input type="checkbox" @bind="Showcase" > Showcase<br />
+	<br />
+	<input type="checkbox" @bind="Singleton" > Singleton<br />
+</div>
 </div>
 </div>
 <br>
 <center>
-<select name="Zdroj" @bind="@subor">
+<select name="Zdroj" @onchange="Changed">
     @foreach(var file in files)
     {
         <option value = "@file"> @file.Substring(file.IndexOf('\\')+1) </option >
@@ -148,9 +162,11 @@ else
 	private int CurrentPage { get; set; } = 1;
     private int RecordsPerPage = 30;
 	private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
+	private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
 	private string[] fileEntries;
 	private List<string> files=new List<string>();
 	private string subor;
+	private string set;
 	private string cardName;
 	private string cardType;
 	private string cardText;
@@ -179,7 +195,10 @@ else
 	private bool Tricolor;
 	private bool Fourcolor;
 	private bool Fivecolor;
-	bool flipped;
+	private bool Foil;
+	private bool Showcase;
+	private bool Singleton;
+	bool flipped=true;
     void FlipMe()
     {
         flipped = !flipped;
@@ -231,6 +250,14 @@ else
         return cards.Skip(skip).Take(RecordsPerPage).ToList();
     }
 
+	private async Task Changed(ChangeEventArgs suborEvent)
+    {
+		set="0";
+		Sets.Clear();
+		subor=suborEvent.Value.ToString();
+		Sets.AddRange(await CardService.ListOfSets(subor));
+    }
+
     protected override async Task OnInitializedAsync()
     {
 		fileEntries = Directory.GetFiles(@"json\");
@@ -259,12 +286,18 @@ else
 		Tricolor=false;
 		Fourcolor=false;
 		Fivecolor=false;
+		Showcase=false;
+		Singleton=false;
+		Foil=false;
+		set="0";
 		cardName="";
 		cardType="";
 		cardText="";
 		CurrentPage=1;
 		subor=fileEntries[0];
         cards = await CardService.AllCards(subor);
+		Sets.Clear();
+		Sets.AddRange(await CardService.ListOfSets(subor));
 		count=cards.Length;
     }
 	
@@ -283,7 +316,7 @@ else
 	private async Task FindCards()
     {
 		CurrentPage=1;
-        cards = await CardService.FindCards(subor, new Blazor.Data.Filter{
+        cards = await CardService.FindCards(subor,Singleton, new Blazor.Data.Filter{
 			Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
 			CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
 			Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
@@ -316,7 +349,10 @@ else
 			Bicolor=Bicolor,
 			Tricolor=Tricolor,
 			Fourcolor=Fourcolor,
-			Fivecolor=Fivecolor		
+			Fivecolor=Fivecolor,
+			Foil=Foil,
+			Showcase=Showcase,
+			Edition=set
 		});
        count=cards.Length; 
     }
