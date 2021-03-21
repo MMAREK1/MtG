@@ -1,0 +1,197 @@
+﻿@page "/Baliky"
+
+@using Blazor.Data
+@using System.IO;
+@using System.Collections.Generic;
+@inject BalikyService BalikService
+
+<h1>Moje Baliky</h1>
+
+<br>
+<br>
+<center>
+<select name="Zdroj" @bind="@subor">
+    @foreach(var file in files)
+    {
+        <option value = "@file"> @file.Substring(file.IndexOf('\\')+1) </option >
+    }
+</select>
+<button @onclick="OnInitializedAsync" style="display: inline-block;">Show</button>
+<br>
+</center>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <b>Colors</b><br />
+            ColorLess: @staty.ColorLess <br />
+            White: @staty.White <br>
+            Black: @staty.Black <br>
+            Blue: @staty.Blue <br>
+            Red: @staty.Red <br>
+            Green: @staty.Green <br>
+            BiColor: @staty.BiColor <br>
+            ThreeColor: @staty.ThreeColor <br>
+            FourColor: @staty.FourColor <br>
+            FiveColor: @staty.FiveColor
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <b>ManaCost</b><br />
+            Zero: @staty.Zero <br>
+            One: @staty.One <br>
+            Two: @staty.Two <br>
+            Three: @staty.Three <br>
+            Four: @staty.Four <br>
+            Five: @staty.Five <br>
+            Six: @staty.Six <br>
+            More: @staty.More <br>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <b>Card Types</b><br />
+            Creature: @staty.Creature.All <br>
+            Instant: @staty.Instant.All <br>
+            Land: @staty.Land <br>
+            Sorcery: @staty.Sorcery.All <br>
+            Enchant: @staty.Enchant.All <br>
+            Artifact: @staty.Artifact.All <br>
+            Planeswalker: @staty.Planeswalker
+        </div>
+        </div>
+    <br />
+    <div class="row">
+        <div class="col-xs-3 col-sm-2 col-md-2">
+                <b>Creature</b><br />
+                One: @staty.Creature.One <br>
+                Two: @staty.Creature.Two <br>
+                Three: @staty.Creature.Three <br>
+                Four: @staty.Creature.Four <br>
+                Five: @staty.Creature.Five <br>
+                Six: @staty.Creature.Six <br>
+                More: @staty.Creature.More <br>
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-2">
+                <b>Instant</b><br />
+                One: @staty.Instant.One <br>
+                Two: @staty.Instant.Two <br>
+                Three: @staty.Instant.Three <br>
+                Four: @staty.Instant.Four <br>
+                Five: @staty.Instant.Five <br>
+                Six: @staty.Instant.Six <br>
+                More: @staty.Instant.More <br>
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-2">
+                <b>Sorcery</b><br />
+                One: @staty.Sorcery.One <br>
+                Two: @staty.Sorcery.Two <br>
+                Three: @staty.Sorcery.Three <br>
+                Four: @staty.Sorcery.Four <br>
+                Five: @staty.Sorcery.Five <br>
+                Six: @staty.Sorcery.Six <br>
+                More: @staty.Sorcery.More <br>
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-2">
+                <b>Enchant</b><br />
+                One: @staty.Enchant.One <br>
+                Two: @staty.Enchant.Two <br>
+                Three: @staty.Enchant.Three <br>
+                Four: @staty.Enchant.Four <br>
+                Five: @staty.Enchant.Five <br>
+                Six: @staty.Enchant.Six <br>
+                More: @staty.Enchant.More <br>
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-2">
+                <b>Artifact</b><br />
+                One: @staty.Artifact.One <br>
+                Two: @staty.Artifact.Two <br>
+                Three: @staty.Artifact.Three <br>
+                Four: @staty.Artifact.Four <br>
+                Five: @staty.Artifact.Five <br>
+                Six: @staty.Artifact.Six <br>
+                More: @staty.Artifact.More <br>
+        </div>
+
+        </div>
+    </div>
+        <button @onclick="Hand" style="display: inline-block;">Random Hand</button>
+        <button @onclick="Clear" style="display: inline-block;">Clear</button>
+        @if (ruka != null)
+        {
+            <div class="row" id="contentPanel">
+                @foreach (var image in ruka)
+                {
+                    @if (image.Url.IndexOf('|') != -1)
+                    {
+                        <div class="card-container" @onclick="FlipMe">
+                            <div class="card-flip @flipCss">
+                                <!-- Card 2 Front -->
+                                <div class="card front">
+                                    <img src="@image.Url.Substring(0, image.Url.IndexOf('|'))" title="@image.Name" width="265" height="370" />
+                                </div>
+                                <!-- End Card 2 Front -->
+                                <!-- Card 2 Back -->
+                                <div class="card back">
+                                    <img src="@image.Url.Substring(image.Url.IndexOf('|') + 1)" title="@image.Name" width="265" height="370" />
+                                </div>
+                                <!-- End Card 2 Back -->
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <img src="@image.Url" title="@image.Name" width="265" height="370" />
+                    }
+                }
+            </div>
+        }
+
+        @code {
+        private Blazor.Data.Karty[] ruka;
+        private Blazor.Data.Stats staty;
+
+        private string subor;
+        private string[] fileEntries;
+        private List<string> files = new List<string>();
+
+        bool flipped = true;
+        void FlipMe()
+        {
+            flipped = !flipped;
+        }
+        string flipCss => flipped ? "front" : "back";
+
+        private async Task Hand()
+        {
+            ruka = null;
+            ruka = await BalikService.RandomHand(subor);
+        }
+        private async Task Clear()
+        {
+            ruka = null;
+        }
+
+
+        protected override async Task OnInitializedAsync()
+        {
+            ruka = null;
+            fileEntries = Directory.GetFiles(@"json\");
+            files = fileEntries.ToList();
+            if (String.IsNullOrEmpty(subor))
+            {
+                subor = files[0];
+            }
+            staty = await BalikService.DeckStats(subor);
+        }
+
+        string whiteId;
+
+        string WhiteID
+        {
+            get => whiteId;
+            set
+            {
+                whiteId = value;
+
+            }
+        }
+
+        }

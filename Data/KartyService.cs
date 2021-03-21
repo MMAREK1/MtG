@@ -64,7 +64,7 @@ namespace Blazor.Data
 			(c.Code,c.Name)).ToArray());
 		}
 		
-		public Task<Karty[]> FindCards(string path,bool Singleton, Filter filters)
+		public Task<Karty[]> FindCards(string path,bool Singleton, Filter filters, bool group)
         {
 			var subor = File.ReadAllText(@path);
 			var karty = JsonConvert.DeserializeObject<Scryfall.API.Models.Card[]>(subor, new Newtonsoft.Json.JsonSerializerSettings
@@ -113,19 +113,33 @@ namespace Blazor.Data
 			if (filters.Edition != "0") vyber = (vyber.Where(c =>c.Set==filters.Edition)).ToList();
             if (filters.Foil) vyber = (vyber.Where(c=>!string.ReferenceEquals(c.Effects,null)).Where(c => c.Effects.Contains("F"))).ToList();
 			if (filters.Showcase) vyber = (vyber.Where(c => !string.ReferenceEquals(c.Effects, null)).Where(c => c.Effects.Contains("S"))).ToList();
+			if (filters.ManaCost=="1") vyber = (vyber.Where(c => c.Cmc == 1)).ToList();
+			if (filters.ManaCost == "2") vyber = (vyber.Where(c => c.Cmc == 2)).ToList();
+			if (filters.ManaCost == "3") vyber = (vyber.Where(c => c.Cmc == 3)).ToList();
+			if (filters.ManaCost == "4") vyber = (vyber.Where(c => c.Cmc == 4)).ToList();
+			if (filters.ManaCost == "5") vyber = (vyber.Where(c => c.Cmc == 5)).ToList();
+			if (filters.ManaCost == "6") vyber = (vyber.Where(c => c.Cmc >5 )).ToList();
 			vyber = vyber.OrderBy(x => x.Name).ToList();
-			foreach (var card in vyber)
+			List<Scryfall.API.Models.Card> zoznam = new List<Scryfall.API.Models.Card>();
+			if (group)
 			{
-				card.pocet = (!Singleton) ? vyber.Where(c => c.Name == card.Name).Where(c => c.Set == card.Set).Where(c => c.Effects == card.Effects).ToList().Count(): vyber.Where(c => c.Name == card.Name).ToList().Count();
-			}
-			var zoznam = (Singleton)?vyber.GroupBy(p => new { p.Name})
-						   .Select(grp => grp.First())
-						   .ToList()
-						   :
-						   vyber.GroupBy(p => new { p.Name, p.Effects, p.Set })
-						   .Select(grp => grp.First())
-						   .ToList();
+				foreach (var card in vyber)
+				{
+					card.pocet = (!Singleton) ? vyber.Where(c => c.Name == card.Name).Where(c => c.Set == card.Set).Where(c => c.Effects == card.Effects).ToList().Count() : vyber.Where(c => c.Name == card.Name).ToList().Count();
+				}
 
+				zoznam = (Singleton) ? vyber.GroupBy(p => new { p.Name })
+							   .Select(grp => grp.First())
+							   .ToList()
+							   :
+							   vyber.GroupBy(p => new { p.Name, p.Effects, p.Set })
+							   .Select(grp => grp.First())
+							   .ToList();
+			}
+			else
+            {
+				zoznam = vyber.ToList();
+            }
 			return Task.FromResult(zoznam.Select(c => new Karty
 				{
 					Url = (c.Layout == Scryfall.API.Models.Layouts.ModalDfc || c.Layout == Scryfall.API.Models.Layouts.Transform) ? c.CardFaces[0].ImageUris.Normal + '|' + c.CardFaces[1].ImageUris.Normal : c.ImageUris.Normal,

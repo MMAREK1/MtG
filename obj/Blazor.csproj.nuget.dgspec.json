@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\priestor\\MTG\\Blazor\\Blazor.csproj": {}
+    "C:\\priestor\\MTG\\Blazor\\Blazor.csproj": {}
   },
   "projects": {
-    "c:\\priestor\\MTG\\Blazor\\Blazor.csproj": {
+    "C:\\priestor\\MTG\\Blazor\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+        "projectUniqueName": "C:\\priestor\\MTG\\Blazor\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+        "projectPath": "C:\\priestor\\MTG\\Blazor\\Blazor.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "c:\\priestor\\MTG\\Blazor\\obj\\",
+        "outputPath": "C:\\priestor\\MTG\\Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "BlazorInputFile": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
             "Flurl": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -91,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

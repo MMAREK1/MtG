@@ -1,0 +1,415 @@
+﻿@page "/Move"
+
+@using Blazor.Data
+@using System.IO;
+@inject KartyService CardService
+@inject AddService PridatService
+
+<h3>Presunut karty</h3>
+<br />
+<div class="row">
+    <div class="col-xs-6 col-sm-3 col-md-3">
+        <label for="Zdroj">Vybrat z balika: </label>
+        <select name="Zdroj" @bind="@suborFrom">
+            @foreach (var file in files)
+            {
+                <option value="@file"> @file.Substring(file.IndexOf('\\') + 1) </option>
+            }
+        </select>
+        <button @onclick="ShowCards" style="display: inline-block;">Zobraz balik</button>
+    </div>
+</div>
+@if (cards != null)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <input placeholder="Card Name" @bind="cardName" class="col-10" /><br>
+                <input placeholder="Card Type" @bind="cardType" class="col-10" /><br>
+                <input placeholder="Card Text" @bind="cardText" class="col-10" /><br>
+                <input type="checkbox" @bind="Legendary"> Legendary<br>
+                <input type="checkbox" @bind="Snow"> Snow<br>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <input type="checkbox" @bind="Common"> Common<br>
+                <input type="checkbox" @bind="Uncommon"> Uncommon<br>
+                <input type="checkbox" @bind="Rare"> Rare<br>
+                <input type="checkbox" @bind="Mythic"> Mythic<br>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <input type="checkbox" @bind="Artifact"> Artifact<br>
+                <input type="checkbox" @bind="Land"> Land<br>
+                <input type="checkbox" @bind="Instant"> Instant<br>
+                <input type="checkbox" @bind="Creature"> Creature<br>
+                <input type="checkbox" @bind="Planeswalker"> Planeswalker<br>
+                <input type="checkbox" @bind="Sorcery"> Sorcery<br>
+                <input type="checkbox" @bind="Enchantment"> Enchantment
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <label for="White">White: </label>
+                <select name="White" @bind="@White">
+                    @foreach (var choise in Choices)
+                    {
+                        <option value="@choise.Code"> @choise.Name </option>
+                    }
+                </select><br>
+                <label for="Black">Black: </label>
+                <select name="Black" @bind="@Black">
+                    @foreach (var choise in Choices)
+                    {
+                        <option value="@choise.Code"> @choise.Name </option>
+                    }
+                </select><br>
+                <label for="Blue">Blue: </label>
+                <select name="Blue" @bind="@Blue">
+                    @foreach (var choise in Choices)
+                    {
+                        <option value="@choise.Code"> @choise.Name </option>
+                    }
+                </select><br>
+                <label for="Red">Red: </label>
+                <select name="Red" @bind="@Red">
+                    @foreach (var choise in Choices)
+                    {
+                        <option value="@choise.Code"> @choise.Name </option>
+                    }
+                </select><br>
+                <label for="Green">Green: </label>
+                <select name="Green" @bind="@Green">
+                    @foreach (var choise in Choices)
+                    {
+                        <option value="@choise.Code"> @choise.Name </option>
+                    }
+                </select>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <input type="checkbox" @bind="Colorless"> Colorless<br>
+                <input type="checkbox" @bind="Monocolor"> Monocolor<br>
+                <input type="checkbox" @bind="Bicolor"> Bicolor<br>
+                <input type="checkbox" @bind="Tricolor"> Tricolor<br>
+                <input type="checkbox" @bind="Fourcolor"> Fourcolor<br>
+                <input type="checkbox" @bind="Fivecolor"> Fivecolor<br>
+            </div>
+        </div>
+    </div>
+    <center>
+        <button @onclick="FindCards" style="display: inline-block;">Filter</button>
+        <button @onclick="ShowCards" style="display: inline-block;">Clear</button>
+        <br />
+        <label for="Zdroj2">Preniest do balika: </label>
+        <select name="Zdroj2" @bind="@suborTo">
+            @foreach (var file in files)
+            {
+                <option value="@file"> @file.Substring(file.IndexOf('\\') + 1) </option>
+            }
+        </select>
+        <button @onclick="MoveCards" style="display: inline-block;">Preniest</button>
+        <br />
+        Cards count: @count
+
+    </center>
+    <div class="row" id="contentPanel">
+        @foreach (var image in GetImageToShow())
+        {
+            var ttt = Flips.Where(c => c.Name == image.Name).First();
+            @if (ttt.Flipped)
+            {
+                <div class="card-container" @onclick="() => FlipMe(image.Name)">
+                    <!-- Card 2 Back -->
+                    <div>
+                        @if (image.Url.IndexOf('|') > -1)
+                        {
+                            <img src="@image.Url.Substring(0, image.Url.IndexOf('|'))" title="@image.Name" width="265" height="370" style="border: 5px solid #ff0000" />
+                        }
+                        else
+                        {
+                            <img src="@image.Url" title="@image.Name" width="265" height="370" style="border: 5px solid #ff0000" />
+                        }
+                    </div>
+                    <!-- End Card 2 Back -->
+                </div>
+            }
+            else
+            {
+                <div class="card-container" @onclick="() => FlipMe(image.Name)">
+                    <!-- Card 2 Front -->
+                    <div>
+                        @if (image.Url.IndexOf('|') > -1)
+                        {
+                            <img src="@image.Url.Substring(0, image.Url.IndexOf('|'))" title="@image.Name" width="265" height="370" style="border: 5px solid #ffffff" />
+                        }
+                        else
+                        {
+                            <img src="@image.Url" title="@image.Name" width="265" height="370" style="border: 5px solid #ffffff" />
+                        }
+                    </div>
+                    <!-- End Card 2 Front -->
+                </div>
+            }
+        }
+    </div>
+}
+
+
+@code {
+    private List<string> files = new List<string>();
+    private string suborFrom;
+    private string suborTo;
+    private string[] fileEntries;
+    private string zobraz = "";
+    private List<Blazor.Data.Flip> Flips = new List<Blazor.Data.Flip> { };
+    private Blazor.Data.Karty[] cards;
+    private int CurrentPage { get; set; } = 1;
+    private int RecordsPerPage = 50;
+    private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice> { new Blazor.Data.Choice(1, "Je"), new Blazor.Data.Choice(2, "Moze"), new Blazor.Data.Choice(3, "Nie Je") };
+
+    private string Edition = "0";
+    private string cardName;
+    private string cardType;
+    private string cardText;
+    private int count = 0;
+    private bool Common;
+    private bool Uncommon;
+    private bool Rare;
+    private bool Mythic;
+    private bool Legendary;
+    private bool Snow;
+    private bool Artifact;
+    private bool Land;
+    private bool Instant;
+    private bool Creature;
+    private bool Planeswalker;
+    private bool Sorcery;
+    private bool Enchantment;
+    private int White = 2;
+    private int Black = 2;
+    private int Blue = 2;
+    private int Red = 2;
+    private int Green = 2;
+    private bool Colorless;
+    private bool Monocolor;
+    private bool Bicolor;
+    private bool Tricolor;
+    private bool Fourcolor;
+    private bool Fivecolor;
+    private bool Singleton = false;
+    private string koniec;
+
+    void FlipMe(string name)
+    {
+        foreach (var zaznam in Flips)
+        {
+            if (zaznam.Name == name)
+            {
+                zaznam.Flipped = !zaznam.Flipped;
+            }
+        }
+    }
+
+    void MoveNext()
+    {
+        if (CurrentPage < NumberOfPages())
+        {
+            CurrentPage++;
+        }
+    }
+
+    void MovePrevious()
+    {
+        if (CurrentPage > 1)
+        {
+            CurrentPage--;
+        }
+
+    }
+
+    string DisablePrevious
+    {
+        get
+        {
+            if (CurrentPage == 1) { return "disabled"; }
+            return "";
+        }
+    }
+    string DisableNext
+    {
+        get
+        {
+            if (CurrentPage >= NumberOfPages()) { return "disabled"; }
+            return "";
+        }
+    }
+
+
+    int NumberOfPages()
+    {
+        return (int)(Math.Ceiling((cards.Count() / (double)RecordsPerPage)));
+    }
+
+
+    List<Blazor.Data.Karty> GetImageToShow()
+    {
+        int skip = (CurrentPage - 1) * RecordsPerPage;
+
+        return cards.Skip(skip).Take(RecordsPerPage).ToList();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        fileEntries = Directory.GetFiles(@"json\");
+        files = fileEntries.ToList();
+        suborFrom = fileEntries[0];
+    }
+    private async Task ShowCards()
+    {
+        Common = false;
+        Uncommon = false;
+        Rare = false;
+        Mythic = false;
+        Legendary = false;
+        Snow = false;
+        Artifact = false;
+        Land = false;
+        Instant = false;
+        Creature = false;
+        Planeswalker = false;
+        Sorcery = false;
+        Enchantment = false;
+        White = 2;
+        Black = 2;
+        Blue = 2;
+        Red = 2;
+        Green = 2;
+        Colorless = false;
+        Monocolor = false;
+        Bicolor = false;
+        Tricolor = false;
+        Fourcolor = false;
+        Fivecolor = false;
+        cardName = "";
+        cardType = "";
+        cardText = "";
+        CurrentPage = 1;
+        cards = await CardService.FindCards(suborFrom, Singleton, new Blazor.Data.Filter
+        {
+            Name = !string.IsNullOrWhiteSpace(cardName) ? cardName : null,
+            CardType = !string.IsNullOrWhiteSpace(cardType) ? cardType : null,
+            Text = !string.IsNullOrWhiteSpace(cardText) ? cardText : null,
+            Legendary = Legendary,
+            Snow = Snow,
+            Rarita = new Blazor.Data.Rarity
+            {
+                Common = Common,
+                Uncommon = Uncommon,
+                Rare = Rare,
+                Mythic = Mythic
+            },
+            Typy = new Blazor.Data.Type
+            {
+                Artifact = Artifact,
+                Land = Land,
+                Instant = Instant,
+                Creature = Creature,
+                Planeswalker = Planeswalker,
+                Sorcery = Sorcery,
+                Enchantment = Enchantment
+            },
+            Colors = new Blazor.Data.Color
+            {
+                White = White,
+                Black = Black,
+                Blue = Blue,
+                Red = Red,
+                Green = Green,
+            },
+            Colorless = Colorless,
+            Monocolor = Monocolor,
+            Bicolor = Bicolor,
+            Tricolor = Tricolor,
+            Fourcolor = Fourcolor,
+            Fivecolor = Fivecolor,
+            Foil = false,
+            Showcase = false,
+            Edition = "0",
+            ManaCost = "0"
+        },false);
+        Flips.Clear();
+        foreach (var card in cards)
+        {
+            Flips.Add(new Blazor.Data.Flip(card.Name, false));
+        }
+        count = cards.Length;
+    }
+
+    private async Task FindCards()
+    {
+        koniec = "";
+        CurrentPage = 1;
+        cards = await CardService.FindCards(suborFrom, Singleton, new Blazor.Data.Filter
+        {
+            Name = !string.IsNullOrWhiteSpace(cardName) ? cardName : null,
+            CardType = !string.IsNullOrWhiteSpace(cardType) ? cardType : null,
+            Text = !string.IsNullOrWhiteSpace(cardText) ? cardText : null,
+            Legendary = Legendary,
+            Snow = Snow,
+            Rarita = new Blazor.Data.Rarity
+            {
+                Common = Common,
+                Uncommon = Uncommon,
+                Rare = Rare,
+                Mythic = Mythic
+            },
+            Typy = new Blazor.Data.Type
+            {
+                Artifact = Artifact,
+                Land = Land,
+                Instant = Instant,
+                Creature = Creature,
+                Planeswalker = Planeswalker,
+                Sorcery = Sorcery,
+                Enchantment = Enchantment
+            },
+            Colors = new Blazor.Data.Color
+            {
+                White = White,
+                Black = Black,
+                Blue = Blue,
+                Red = Red,
+                Green = Green,
+            },
+            Colorless = Colorless,
+            Monocolor = Monocolor,
+            Bicolor = Bicolor,
+            Tricolor = Tricolor,
+            Fourcolor = Fourcolor,
+            Fivecolor = Fivecolor,
+            Foil = false,
+            Showcase = false,
+            Edition = "0",
+            ManaCost = "0"
+        }, false);
+        Flips.Clear();
+        foreach (var card in cards)
+        {
+            Flips.Add(new Blazor.Data.Flip(card.Name, false));
+        }
+        count = cards.Length;
+    }
+
+    private async Task MoveCards()
+    {
+        string karty = "";
+        foreach (var zaznamstavu in Flips)
+        {
+            if (zaznamstavu.Flipped)
+            {
+                karty += zaznamstavu.Name.Substring(zaznamstavu.Name.IndexOf(':') + 2);
+                karty += ":";
+            }
+        }
+        karty = karty.Remove(karty.Length - 1);
+        koniec = await PridatService.MoveCards(karty, suborFrom, suborTo);
+    }
+}

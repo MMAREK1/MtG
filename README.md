@@ -18,3 +18,5 @@ myska nad obrazkom zobrazi nazov karty, pocet kusov a ich efekty F - foil a S - 
 po kliknuti na Transform a modal_dfc karty sa zobrazi druha strana
 
 filtre pracuju aj s druhou stranou , rarita funguje ako OR, zvysok ako AND
+
+Pridavanie novych kariet nahratim CSV suboru bez potrebnych zmien

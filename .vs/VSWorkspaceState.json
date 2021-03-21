@@ -2,6 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Data",
+    "\\Data\\Scryfall",
+    "\\Data\\Scryfall\\Models",
     "\\Pages",
     "\\Shared",
     "\\wwwroot",
@@ -9,6 +11,6 @@
     "\\wwwroot\\css\\bootstrap",
     "\\wwwroot\\css\\open-iconic"
   ],
-  "SelectedNode": "\\Pages\\Karty.razor",
+  "SelectedNode": "\\Pages\\Add.razor",
   "PreviewInSolutionExplorer": false
 }

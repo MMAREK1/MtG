@@ -30,6 +30,7 @@ namespace Blazor
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<KartyService>();
             services.AddSingleton<AddService>();
+            services.AddSingleton<BalikyService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

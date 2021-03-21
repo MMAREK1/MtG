@@ -11,24 +11,31 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-6 col-sm-3 col-md-3">
-<table>
 <input placeholder="Card Name" @bind="cardName" class="col-10"/><br>
 <input placeholder="Card Type" @bind="cardType" class="col-10"/><br>
 <input placeholder="Card Text" @bind="cardText" class="col-10"/><br>
 <input type="checkbox" @bind="Legendary" > Legendary<br>
 <input type="checkbox" @bind="Snow" > Snow<br>
-</table>
 </div>
 <div class="col-xs-6 col-sm-3 col-md-3">
-<table>
 <input type="checkbox" @bind="Common" > Common<br>
 <input type="checkbox" @bind="Uncommon" > Uncommon<br>
 <input type="checkbox" @bind="Rare" > Rare<br>
 <input type="checkbox" @bind="Mythic" > Mythic<br>
-</table>
+	<br />
+	<label for="ManaCost">ManaCost: </label> 
+	<select name="ManaCost" @bind="@Mana">
+        <option value ="0" > 0 </option >
+		<option value ="1" > 1 </option >
+		<option value ="2" > 2 </option >
+		<option value ="3" > 3 </option >
+		<option value ="4" > 4 </option >
+		<option value ="5" > 5 </option >
+		<option value ="6" > 6 </option >
+</select>
+
 </div>
 <div class="col-xs-6 col-sm-3 col-md-3">
-<table>
 <input type="checkbox" @bind="Artifact" > Artifact<br>
 <input type="checkbox" @bind="Land" > Land<br>
 <input type="checkbox" @bind="Instant" > Instant<br>
@@ -36,7 +43,6 @@
 <input type="checkbox" @bind="Planeswalker" > Planeswalker<br>
 <input type="checkbox" @bind="Sorcery" > Sorcery<br>
 <input type="checkbox" @bind="Enchantment" > Enchantment
-</table>
 </div>
 </div>
 <div class="row">
@@ -78,14 +84,12 @@
 </select>
 </div>
 <div class="col-xs-6 col-sm-3 col-md-3">
-<table>
 <input type="checkbox" @bind="Colorless" > Colorless<br>
 <input type="checkbox" @bind="Monocolor" > Monocolor<br>
 <input type="checkbox" @bind="Bicolor" > Bicolor<br>
 <input type="checkbox" @bind="Tricolor" > Tricolor<br>
 <input type="checkbox" @bind="Fourcolor" > Fourcolor<br>
 <input type="checkbox" @bind="Fivecolor" > Fivecolor<br>
-</table>
 </div>
 	<div class="col-xs-6 col-sm-3 col-md-3">
 		<br />
@@ -160,7 +164,7 @@ else
 @code {
     private Blazor.Data.Karty[] cards;
 	private int CurrentPage { get; set; } = 1;
-    private int RecordsPerPage = 30;
+    private int RecordsPerPage = 150;
 	private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
 	private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
 	private string[] fileEntries;
@@ -198,6 +202,7 @@ else
 	private bool Foil;
 	private bool Showcase;
 	private bool Singleton;
+	private string Mana;
 	bool flipped=true;
     void FlipMe()
     {
@@ -295,6 +300,7 @@ else
 		cardText="";
 		CurrentPage=1;
 		subor=fileEntries[0];
+		Mana="0";
         cards = await CardService.AllCards(subor);
 		Sets.Clear();
 		Sets.AddRange(await CardService.ListOfSets(subor));
@@ -352,8 +358,9 @@ else
 			Fivecolor=Fivecolor,
 			Foil=Foil,
 			Showcase=Showcase,
-			Edition=set
-		});
+			Edition=set,
+			ManaCost=Mana
+		},true);
        count=cards.Length; 
     }
 }

@@ -12,91 +12,91 @@ namespace Blazor.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 1 "C:\priestor\MTG\Blazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 2 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 3 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 4 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 5 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 6 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 7 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 8 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 9 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\priestor\MTG\Blazor\_Imports.razor"
+#line 10 "C:\priestor\MTG\Blazor\_Imports.razor"
 using Blazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 3 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
 using Blazor.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 4 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
 using System.IO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 5 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
 using System.Collections.Generic;
 
 #line default
@@ -111,11 +111,11 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 160 "c:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 164 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
        
     private Blazor.Data.Karty[] cards;
 	private int CurrentPage { get; set; } = 1;
-    private int RecordsPerPage = 30;
+    private int RecordsPerPage = 150;
 	private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
 	private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
 	private string[] fileEntries;
@@ -153,6 +153,7 @@ using System.Collections.Generic;
 	private bool Foil;
 	private bool Showcase;
 	private bool Singleton;
+	private string Mana;
 	bool flipped=true;
     void FlipMe()
     {
@@ -250,6 +251,7 @@ using System.Collections.Generic;
 		cardText="";
 		CurrentPage=1;
 		subor=fileEntries[0];
+		Mana="0";
         cards = await CardService.AllCards(subor);
 		Sets.Clear();
 		Sets.AddRange(await CardService.ListOfSets(subor));
@@ -307,8 +309,9 @@ using System.Collections.Generic;
 			Fivecolor=Fivecolor,
 			Foil=Foil,
 			Showcase=Showcase,
-			Edition=set
-		});
+			Edition=set,
+			ManaCost=Mana
+		},true);
        count=cards.Length; 
     }
 
