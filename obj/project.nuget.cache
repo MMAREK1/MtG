@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9cmBqp+S+i+8yU7/xZYo6TgiYLLtvbT7rUpfL/95i4r6ZbadPVQk7/SZLysnDV8wUwgR6awJF8/8zeTxwSzgrw==",
+  "dgSpecHash": "k/WrDbUBF1pi340AII6SGZQV9Yavyx24MgUvR4+sOCRJ5jXXOFXxzMQt7A3pz61UWddNv7JKyxvAnFDk11wlNg==",
   "success": true,
-  "projectFilePath": "C:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+  "projectFilePath": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\blazorinputfile\\0.2.0\\blazorinputfile.0.2.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\flurl\\3.0.1\\flurl.3.0.1.nupkg.sha512",

@@ -370,5 +370,6 @@ namespace Scryfall.API.Models
 
         public string Effects { get; set; }
         public int pocet { get; set; }
+        public int poradie { get; set; }
     }
 }

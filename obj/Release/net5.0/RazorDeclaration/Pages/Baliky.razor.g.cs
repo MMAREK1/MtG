@@ -111,104 +111,58 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 182 "C:\priestor\MTG\Blazor\Pages\Baliky.razor"
-       
-    private Blazor.Data.Karty[] cards;
-    private Blazor.Data.Karty[] ruka;
-    private Blazor.Data.Stats staty;
-	private int CurrentPage { get; set; } = 1;
-    private int RecordsPerPage = 10;
-	private string subor;
-    private string[] fileEntries;
-	private List<string> files=new List<string>();
-	
-	bool flipped=true;
-    void FlipMe()
-    {
-        flipped = !flipped;
-    }
-    string flipCss => flipped ? "front" : "back";
+#line 147 "C:\priestor\MTG\Blazor\Pages\Baliky.razor"
+               
+        private Blazor.Data.Karty[] ruka;
+        private Blazor.Data.Stats staty;
 
+        private string subor;
+        private string[] fileEntries;
+        private List<string> files = new List<string>();
 
-    void MoveNext()
-    {
-        if (CurrentPage < NumberOfPages())
+        bool flipped = true;
+        void FlipMe()
         {
-            CurrentPage++;
+            flipped = !flipped;
         }
-    }
+        string flipCss => flipped ? "front" : "back";
 
-    void MovePrevious()
-    {
-        if (CurrentPage > 1)
+        private async Task Hand()
         {
-            CurrentPage--;
+            ruka = null;
+            ruka = await BalikService.RandomHand(subor);
         }
-
-    }
-
-    string DisablePrevious {
-        get {
-            if (CurrentPage == 1) { return "disabled"; }
-            return ""; 
-        }
-    }
-    string DisableNext {
-        get {
-            if (CurrentPage >= NumberOfPages()) { return "disabled"; }
-            return ""; 
-        }
-    }
-
-
-    int NumberOfPages()
-    {
-        return (int)(Math.Ceiling((cards.Count()/(double)RecordsPerPage)));
-    }
-
-    private async Task Hand()
-    {
-    ruka=null;
-    ruka =  await BalikService.RandomHand(subor);
-    }
         private async Task Clear()
-    {
-    ruka=null;
-    }
-    List<Blazor.Data.Karty> GetImageToShow()
-    {
-        int skip = (CurrentPage - 1) * RecordsPerPage;
-
-        return cards.Skip(skip).Take(RecordsPerPage).ToList();
-    }
-
-
-    protected override async Task OnInitializedAsync()
-    {
-    ruka=null;
-		CurrentPage=1;
-    	fileEntries = Directory.GetFiles(@"decks\");
-		files = fileEntries.ToList();
-    if(String.IsNullOrEmpty(subor))
-    {
-    subor=files[0];
-    }
-        cards = await BalikService.AllCards(subor);
-        staty = await BalikService.DeckStats(subor);
-    }
-	
-	string whiteId;
-
-    string WhiteID
-    {
-        get => whiteId;
-        set
         {
-            whiteId = value;
-
+            ruka = null;
         }
-    }
-	
+
+
+        protected override async Task OnInitializedAsync()
+        {
+            ruka = null;
+            fileEntries = Directory.GetFiles(@"json\");
+            files = fileEntries.ToList();
+            if (String.IsNullOrEmpty(subor))
+            {
+                subor = files[0];
+            }
+            staty = await BalikService.DeckStats(subor);
+        }
+
+        string whiteId;
+
+        string WhiteID
+        {
+            get => whiteId;
+            set
+            {
+                whiteId = value;
+
+            }
+        }
+
+        
 
 #line default
 #line hidden

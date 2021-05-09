@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "281336c7-ca7c-4c91-bdfb-d253a965cb7c",
+    "oracle_id": "07e5f59e-3a98-4e01-a368-0be60e0463ba",
+    "multiverse_ids": [
+      491722
+    ],
+    "mtgo_id": 83137,
+    "arena_id": 73283,
+    "uri": "https://api.scryfall.com/cards/281336c7-ca7c-4c91-bdfb-d253a965cb7c",
+    "scryfall_uri": "https://scryfall.com/card/znr/89/acquisitions-expert?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A07e5f59e-3a98-4e01-a368-0be60e0463ba&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/281336c7-ca7c-4c91-bdfb-d253a965cb7c/rulings",
+    "name": "Acquisitions Expert",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Creature — Human Rogue",
+    "oracle_text": "When Acquisitions Expert enters the battlefield, target opponent reveals a number of cards from their hand equal to the number of creatures in your party. You choose one of those cards. That player discards that card. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)",
+    "mana_cost": "{1}{B}",
+    "power": "1",
+    "toughness": "2",
+    "colors": [
+      "B"
+    ],
+    "color_identity": [
+      "B"
+    ],
+    "legalities": {
+      "standard": "legal",
+      "future": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 11607,
+    "set": "znr",
+    "set_name": "Zendikar Rising",
+    "collector_number": "89",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aznr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/znr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.png?1604195180",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/8/281336c7-ca7c-4c91-bdfb-d253a965cb7c.jpg?1604195180"
+    },
+    "highres_image": true,
+    "reprint": false,
+    "digital": false,
+    "rarity": "uncommon",
+    "artist": "Anna Steinbauer",
+    "illustration_id": "6a627cda-915d-4e1a-9cd5-d1c73dc1bac1",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=221775&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Acquisitions+Expert&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/83137?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=491722",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Acquisitions+Expert&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Acquisitions+Expert",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Acquisitions+Expert"
+    },
+    "Effects": "F",
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "9079c93e-3da8-442a-89d2-609a3eac83b0",
+    "oracle_id": "9728dec9-d482-4c7a-8cdc-44d010dc878d",
+    "multiverse_ids": [
+      509417
+    ],
+    "uri": "https://api.scryfall.com/cards/9079c93e-3da8-442a-89d2-609a3eac83b0",
+    "scryfall_uri": "https://scryfall.com/card/tsr/52/ancestral-vision?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A9728dec9-d482-4c7a-8cdc-44d010dc878d&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/9079c93e-3da8-442a-89d2-609a3eac83b0/rulings",
+    "name": "Ancestral Vision",
+    "layout": "normal",
+    "cmc": 0.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)\nTarget player draws three cards.",
+    "mana_cost": "",
+    "colors": [
+      "U"
+    ],
+    "color_indicator": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 2848,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "52",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.jpg?1616285693",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.jpg?1616285693",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.jpg?1616285693",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.png?1616285693",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.jpg?1616285693",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/0/9079c93e-3da8-442a-89d2-609a3eac83b0.jpg?1616285693"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "mythic",
+    "artist": "Mark Poole",
+    "illustration_id": "679dad4c-bba0-463e-b140-b30e15c70730",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233809&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Ancestral-Vision?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Ancestral+Vision&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509417",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Ancestral+Vision&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Ancestral+Vision&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Ancestral+Vision",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Ancestral+Vision"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "5f28d4a2-6c75-44c2-93ac-e7159c1c623f",
+    "oracle_id": "306593b0-6ea8-476f-a3f2-e17876c1bab4",
+    "multiverse_ids": [
+      509516
+    ],
+    "uri": "https://api.scryfall.com/cards/5f28d4a2-6c75-44c2-93ac-e7159c1c623f",
+    "scryfall_uri": "https://scryfall.com/card/tsr/151/ancient-grudge?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A306593b0-6ea8-476f-a3f2-e17876c1bab4&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/5f28d4a2-6c75-44c2-93ac-e7159c1c623f/rulings",
+    "name": "Ancient Grudge",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Instant",
+    "oracle_text": "Destroy target artifact.\nFlashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "mana_cost": "{1}{R}",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "G",
+      "R"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 5385,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "151",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.jpg?1616274038",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.jpg?1616274038",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.jpg?1616274038",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.png?1616274038",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.jpg?1616274038",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/f/5f28d4a2-6c75-44c2-93ac-e7159c1c623f.jpg?1616274038"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "The time rifts remind Yavimaya of the enemies of its past and provide fresh fuel for its fires.",
+    "artist": "Jim Nelson",
+    "illustration_id": "28b2d6af-6b7d-41fd-845b-69688e48866c",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233935&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Ancient+Grudge&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Ancient+Grudge&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509516",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Ancient+Grudge&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Ancient+Grudge&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Ancient+Grudge",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Ancient+Grudge"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "3e2a4717-3914-46bc-886e-1eddee94e098",
+    "oracle_id": "82f18e7d-5c42-47c4-8e74-3fccc9b7b1f0",
+    "multiverse_ids": [
+      512321
+    ],
+    "uri": "https://api.scryfall.com/cards/3e2a4717-3914-46bc-886e-1eddee94e098",
+    "scryfall_uri": "https://scryfall.com/card/tsr/355/ancient-stirrings?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A82f18e7d-5c42-47c4-8e74-3fccc9b7b1f0&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/3e2a4717-3914-46bc-886e-1eddee94e098/rulings",
+    "name": "Ancient Stirrings",
+    "layout": "normal",
+    "cmc": 1.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Look at the top five cards of your library. You may reveal a colorless card from among them and put it into your hand. Then put the rest on the bottom of your library in any order. (Cards with no colored mana in their mana costs are colorless. Lands are also colorless.)",
+    "mana_cost": "{G}",
+    "colors": [
+      "G"
+    ],
+    "color_identity": [
+      "G"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 7374,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "355",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.jpg?1616282347",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.jpg?1616282347",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.jpg?1616282347",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.png?1616282347",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.jpg?1616282347",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/e/3e2a4717-3914-46bc-886e-1eddee94e098.jpg?1616282347"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "special",
+    "artist": "Vincent Proce",
+    "illustration_id": "3d537d5a-11d5-401a-8268-1b9fa1d4eb97",
+    "frame": "1997",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=234007&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered-Extras/Ancient-Stirrings?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Ancient+Stirrings&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=512321",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Ancient+Stirrings&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Ancient+Stirrings&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Ancient+Stirrings",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Ancient+Stirrings"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "92b8fe7c-fe36-4f6d-9c7f-85286b745865",
+    "oracle_id": "2c7c42e1-b097-4443-aa02-1f1dfcbb9732",
+    "multiverse_ids": [
+      509517
+    ],
+    "uri": "https://api.scryfall.com/cards/92b8fe7c-fe36-4f6d-9c7f-85286b745865",
+    "scryfall_uri": "https://scryfall.com/card/tsr/152/arc-blade?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2c7c42e1-b097-4443-aa02-1f1dfcbb9732&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/92b8fe7c-fe36-4f6d-9c7f-85286b745865/rulings",
+    "name": "Arc Blade",
+    "layout": "normal",
+    "cmc": 5.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Arc Blade deals 2 damage to any target. Exile Arc Blade with three time counters on it.\nSuspend 3—{2}{R} (Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+    "mana_cost": "{3}{R}{R}",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 12228,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "152",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.jpg?1616274084",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.jpg?1616274084",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.jpg?1616274084",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.png?1616274084",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.jpg?1616274084",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865.jpg?1616274084"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "uncommon",
+    "artist": "Shishizaru",
+    "illustration_id": "043a8aef-e9a8-494e-9215-3aa91d19c772",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=234331&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Arc-Blade?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Arc+Blade&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509517",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Arc+Blade&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Arc+Blade&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Arc+Blade",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Arc+Blade"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b",
+    "oracle_id": "ce979f36-84f2-4419-b400-971263494cc6",
+    "multiverse_ids": [
+      509466
+    ],
+    "uri": "https://api.scryfall.com/cards/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b",
+    "scryfall_uri": "https://scryfall.com/card/tsr/101/assassinate?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ace979f36-84f2-4419-b400-971263494cc6&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b/rulings",
+    "name": "Assassinate",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Destroy target tapped creature.",
+    "mana_cost": "{2}{B}",
+    "colors": [
+      "B"
+    ],
+    "color_identity": [
+      "B"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 11145,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "101",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.jpg?1616271550",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.jpg?1616271550",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.jpg?1616271550",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.png?1616271550",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.jpg?1616271550",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/c/ac0a1dc6-215f-4738-8ae4-7b6aa1c7d80b.jpg?1616271550"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "The rulers of old Dominaria kept assassins on retainer. However, the true loyalty of these master killers was always their peers. This elite community survived the fall of the old royal order.",
+    "artist": "Kev Walker",
+    "illustration_id": "1b16f1d2-2329-4f50-b7c5-4c0a58656ee4",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233854&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Assassinate&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Assassinate&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509466",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Assassinate&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Assassinate&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Assassinate",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Assassinate"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "9f27dd19-a475-4024-aecf-ba6142806656",
+    "oracle_id": "f28b21a6-f7ce-437a-8c5b-0423cb55cefb",
+    "multiverse_ids": [
+      512257
+    ],
+    "uri": "https://api.scryfall.com/cards/9f27dd19-a475-4024-aecf-ba6142806656",
+    "scryfall_uri": "https://scryfall.com/card/tsr/291/banishing-light?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Af28b21a6-f7ce-437a-8c5b-0423cb55cefb&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/9f27dd19-a475-4024-aecf-ba6142806656/rulings",
+    "name": "Banishing Light",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Enchantment",
+    "oracle_text": "When Banishing Light enters the battlefield, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield.",
+    "mana_cost": "{2}{W}",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "legalities": {
+      "standard": "legal",
+      "future": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 954,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "291",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.jpg?1616279859",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.jpg?1616279859",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.jpg?1616279859",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.png?1616279859",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.jpg?1616279859",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/f/9f27dd19-a475-4024-aecf-ba6142806656.jpg?1616279859"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "special",
+    "artist": "Willian Murai",
+    "illustration_id": "ba37f7c0-17fd-45a2-a788-37c737416c0f",
+    "frame": "1997",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233608&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Banishing+Light&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Banishing+Light&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=512257",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Banishing+Light&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Banishing+Light&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Banishing+Light",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Banishing+Light"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "7f65a72b-d24c-4016-befc-91018a1b62e1",
+    "oracle_id": "4adf959b-2e09-47ff-a1b1-b889348735b8",
+    "multiverse_ids": [
+      509519
+    ],
+    "uri": "https://api.scryfall.com/cards/7f65a72b-d24c-4016-befc-91018a1b62e1",
+    "scryfall_uri": "https://scryfall.com/card/tsr/154/battering-sliver?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A4adf959b-2e09-47ff-a1b1-b889348735b8&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/7f65a72b-d24c-4016-befc-91018a1b62e1/rulings",
+    "name": "Battering Sliver",
+    "layout": "normal",
+    "cmc": 6.0,
+    "type_line": "Creature — Sliver",
+    "oracle_text": "All Sliver creatures have trample.",
+    "mana_cost": "{5}{R}",
+    "power": "4",
+    "toughness": "4",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 6559,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "154",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.jpg?1616274176",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.jpg?1616274176",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.jpg?1616274176",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.png?1616274176",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.jpg?1616274176",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/f/7f65a72b-d24c-4016-befc-91018a1b62e1.jpg?1616274176"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "Covered with hard shell-like plates, these slivers burrow through solid rock to carve out new nests for their hives.",
+    "artist": "Greg Staples",
+    "illustration_id": "1b3fe451-f6cd-47de-8b87-26e42084278d",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233931&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Battering-Sliver?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Battering+Sliver&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509519",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Battering+Sliver&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Battering+Sliver&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Battering+Sliver",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Battering+Sliver"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "d8b1b493-2dec-4816-a427-4813a00ca3e9",
+    "oracle_id": "b7894010-fdba-498e-97de-22bd70332439",
+    "multiverse_ids": [
+      509374
+    ],
+    "uri": "https://api.scryfall.com/cards/d8b1b493-2dec-4816-a427-4813a00ca3e9",
+    "scryfall_uri": "https://scryfall.com/card/tsr/9/blade-of-the-sixth-pride?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab7894010-fdba-498e-97de-22bd70332439&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/d8b1b493-2dec-4816-a427-4813a00ca3e9/rulings",
+    "name": "Blade of the Sixth Pride",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Creature — Cat Rebel",
+    "oracle_text": "",
+    "mana_cost": "{1}{W}",
+    "power": "3",
+    "toughness": "1",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 12046,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "9",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.jpg?1616287327",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.jpg?1616287327",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.jpg?1616287327",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.png?1616287327",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.jpg?1616287327",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/d/8/d8b1b493-2dec-4816-a427-4813a00ca3e9.jpg?1616287327"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "Lars Grant-West",
+    "illustration_id": "c60913c8-94b4-463a-b7b2-4805d25f4068",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233388&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Blade+of+the+Sixth+Pride&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Blade+of+the+Sixth+Pride&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509374",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Blade+of+the+Sixth+Pride&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Blade+of+the+Sixth+Pride&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Blade+of+the+Sixth+Pride",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Blade+of+the+Sixth+Pride"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "59871c54-7873-4fc5-8084-55918a11e6f4",
+    "oracle_id": "7f3f7fb0-da18-467b-bf57-2ded458fda4d",
+    "multiverse_ids": [
+      509524
+    ],
+    "uri": "https://api.scryfall.com/cards/59871c54-7873-4fc5-8084-55918a11e6f4",
+    "scryfall_uri": "https://scryfall.com/card/tsr/159/coal-stoker?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A7f3f7fb0-da18-467b-bf57-2ded458fda4d&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/59871c54-7873-4fc5-8084-55918a11e6f4/rulings",
+    "name": "Coal Stoker",
+    "layout": "normal",
+    "cmc": 4.0,
+    "type_line": "Creature — Elemental",
+    "oracle_text": "When Coal Stoker enters the battlefield, if you cast it from your hand, add {R}{R}{R}.",
+    "mana_cost": "{3}{R}",
+    "power": "3",
+    "toughness": "3",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 14667,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "159",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.jpg?1616274442",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.jpg?1616274442",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.jpg?1616274442",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.png?1616274442",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.jpg?1616274442",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/9/59871c54-7873-4fc5-8084-55918a11e6f4.jpg?1616274442"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "\"The day is mine! I sent three such creatures against my foe, then watched as my magefire popped her soldiers like overripe spleenfruits.\"\n—Dobruk the Unstable, pyromancer",
+    "artist": "Mark Zug",
+    "illustration_id": "6a44a3b9-f6de-488e-8a73-91ffdb53a6ea",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233915&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Coal-Stoker?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Coal+Stoker&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509524",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Coal+Stoker&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Coal+Stoker&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Coal+Stoker",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Coal+Stoker"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "b8eacbc6-362e-4257-b29f-78682f4130c1",
+    "oracle_id": "11a163cc-ade3-4b55-b50e-3b3bf7e1962c",
+    "multiverse_ids": [
+      509423
+    ],
+    "uri": "https://api.scryfall.com/cards/b8eacbc6-362e-4257-b29f-78682f4130c1",
+    "scryfall_uri": "https://scryfall.com/card/tsr/58/coral-trickster?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A11a163cc-ade3-4b55-b50e-3b3bf7e1962c&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/b8eacbc6-362e-4257-b29f-78682f4130c1/rulings",
+    "name": "Coral Trickster",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Creature — Merfolk Rogue",
+    "oracle_text": "Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Coral Trickster is turned face up, you may tap or untap target permanent.",
+    "mana_cost": "{1}{U}",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 12161,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "58",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.jpg?1616285953",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.jpg?1616285953",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.jpg?1616285953",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.png?1616285953",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.jpg?1616285953",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/8/b8eacbc6-362e-4257-b29f-78682f4130c1.jpg?1616285953"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "They wait in darkened depths, laughing eagerly.",
+    "artist": "D. Alexander Gregory",
+    "illustration_id": "93f03c75-e6df-4c3b-a25b-387fbc49497f",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233760&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Coral+Trickster&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Coral+Trickster&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509423",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Coral+Trickster&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Coral+Trickster&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Coral+Trickster",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Coral+Trickster"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "aba5f411-668b-4344-be2f-c8f6cc3255e8",
+    "oracle_id": "53501112-bcdb-4bb5-9fd3-674cdba91951",
+    "multiverse_ids": [
+      509424
+    ],
+    "uri": "https://api.scryfall.com/cards/aba5f411-668b-4344-be2f-c8f6cc3255e8",
+    "scryfall_uri": "https://scryfall.com/card/tsr/59/crookclaw-transmuter?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A53501112-bcdb-4bb5-9fd3-674cdba91951&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/aba5f411-668b-4344-be2f-c8f6cc3255e8/rulings",
+    "name": "Crookclaw Transmuter",
+    "layout": "normal",
+    "cmc": 4.0,
+    "type_line": "Creature — Bird Wizard",
+    "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\nWhen Crookclaw Transmuter enters the battlefield, switch target creature's power and toughness until end of turn.",
+    "mana_cost": "{3}{U}",
+    "power": "3",
+    "toughness": "1",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 13436,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "59",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.jpg?1616286013",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.jpg?1616286013",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.jpg?1616286013",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.png?1616286013",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.jpg?1616286013",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8.jpg?1616286013"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "Ron Spencer",
+    "illustration_id": "2b4b2c5f-3c93-408b-951c-78c298e93b66",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233868&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Crookclaw-Transmuter?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Crookclaw+Transmuter&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509424",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Crookclaw+Transmuter&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Crookclaw+Transmuter&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Crookclaw+Transmuter",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crookclaw+Transmuter"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "c9366fa8-f0af-4eb4-a063-7869ca85b9c2",
+    "oracle_id": "ac2720d2-b010-4fa9-8c94-b13680b75aac",
+    "multiverse_ids": [
+      509472
+    ],
+    "uri": "https://api.scryfall.com/cards/c9366fa8-f0af-4eb4-a063-7869ca85b9c2",
+    "scryfall_uri": "https://scryfall.com/card/tsr/107/dark-withering?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aac2720d2-b010-4fa9-8c94-b13680b75aac&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/c9366fa8-f0af-4eb4-a063-7869ca85b9c2/rulings",
+    "name": "Dark Withering",
+    "layout": "normal",
+    "cmc": 6.0,
+    "type_line": "Instant",
+    "oracle_text": "Destroy target nonblack creature.\nMadness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+    "mana_cost": "{4}{B}{B}",
+    "colors": [
+      "B"
+    ],
+    "color_identity": [
+      "B"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 2970,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "107",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.jpg?1616271831",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.jpg?1616271831",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.jpg?1616271831",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.png?1616271831",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.jpg?1616271831",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/9/c9366fa8-f0af-4eb4-a063-7869ca85b9c2.jpg?1616271831"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "Wayne Reynolds",
+    "illustration_id": "fc37ca99-851e-457e-90f6-eb53c42e3895",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233855&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Dark-Withering?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Dark+Withering&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509472",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Dark+Withering&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Dark+Withering&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Dark+Withering",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Dark+Withering"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "45b090c7-f1ba-4656-8b51-915fc1876922",
+    "oracle_id": "86790a10-c564-44b7-a177-1e66ab9afe77",
+    "multiverse_ids": [
+      509526
+    ],
+    "uri": "https://api.scryfall.com/cards/45b090c7-f1ba-4656-8b51-915fc1876922",
+    "scryfall_uri": "https://scryfall.com/card/tsr/161/dead-gone?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A86790a10-c564-44b7-a177-1e66ab9afe77&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/45b090c7-f1ba-4656-8b51-915fc1876922/rulings",
+    "name": "Dead // Gone",
+    "layout": "split",
+    "cmc": 4.0,
+    "type_line": "Instant // Instant",
+    "mana_cost": "{R} // {2}{R}",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "card_faces": [
+      {
+        "name": "Dead",
+        "type_line": "Instant",
+        "oracle_text": "Dead deals 2 damage to target creature.",
+        "mana_cost": "{R}",
+        "illustration_id": "ff38f5e2-78fa-4f7d-858a-3912eb405992"
+      },
+      {
+        "name": "Gone",
+        "type_line": "Instant",
+        "oracle_text": "Return target creature you don't control to its owner's hand.",
+        "mana_cost": "{2}{R}"
+      }
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 20752,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "161",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.jpg?1616274591",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.jpg?1616274591",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.jpg?1616274591",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.png?1616274591",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.jpg?1616274591",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/5/45b090c7-f1ba-4656-8b51-915fc1876922.jpg?1616274591"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "Tomas Giorello",
+    "illustration_id": "ff38f5e2-78fa-4f7d-858a-3912eb405992",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233934&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Dead-Gone?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Dead+%2F%2F+Gone&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509526",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Dead+%2F%2F+Gone&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Dead+%2F%2F+Gone&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Dead+%2F%2F+Gone",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Dead+%2F%2F+Gone"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "44e872ae-2e41-49f5-9015-e8f9fa7da987",
+    "oracle_id": "093112dd-ebfd-4983-9357-0a9b07e10bb1",
+    "multiverse_ids": [
+      509473
+    ],
+    "uri": "https://api.scryfall.com/cards/44e872ae-2e41-49f5-9015-e8f9fa7da987",
+    "scryfall_uri": "https://scryfall.com/card/tsr/108/deadly-grub?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A093112dd-ebfd-4983-9357-0a9b07e10bb1&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/44e872ae-2e41-49f5-9015-e8f9fa7da987/rulings",
+    "name": "Deadly Grub",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Creature — Insect",
+    "oracle_text": "Vanishing 3 (This creature enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhen Deadly Grub dies, if it had no time counters on it, create a 6/1 green Insect creature token with shroud. (It can't be the target of spells or abilities.)",
+    "mana_cost": "{2}{B}",
+    "power": "3",
+    "toughness": "1",
+    "colors": [
+      "B"
+    ],
+    "color_identity": [
+      "B"
+    ],
+    "all_parts": [
+      {
+        "id": "44e872ae-2e41-49f5-9015-e8f9fa7da987",
+        "name": "Deadly Grub",
+        "uri": "https://api.scryfall.com/cards/44e872ae-2e41-49f5-9015-e8f9fa7da987"
+      },
+      {
+        "id": "0ff2e2bd-b8e9-4563-85ad-fdbb0607fb7c",
+        "name": "Insect",
+        "uri": "https://api.scryfall.com/cards/0ff2e2bd-b8e9-4563-85ad-fdbb0607fb7c"
+      }
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 14581,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "108",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.jpg?1616271887",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.jpg?1616271887",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.jpg?1616271887",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.png?1616271887",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.jpg?1616271887",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/4/44e872ae-2e41-49f5-9015-e8f9fa7da987.jpg?1616271887"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "E. M. Gist",
+    "illustration_id": "6385731b-a7a2-40a5-a019-d293b3edd737",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=234324&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Deadly-Grub?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Deadly+Grub&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509473",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Deadly+Grub&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Deadly+Grub&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Deadly+Grub",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Deadly+Grub"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "0afae574-aa96-4500-9882-a4b10337b6f5",
+    "oracle_id": "af224f6f-cedd-498f-a08e-7be0db5a11b7",
+    "multiverse_ids": [
+      509543
+    ],
+    "uri": "https://api.scryfall.com/cards/0afae574-aa96-4500-9882-a4b10337b6f5",
+    "scryfall_uri": "https://scryfall.com/card/tsr/178/orcish-cannonade?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aaf224f6f-cedd-498f-a08e-7be0db5a11b7&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/0afae574-aa96-4500-9882-a4b10337b6f5/rulings",
+    "name": "Orcish Cannonade",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Instant",
+    "oracle_text": "Orcish Cannonade deals 2 damage to any target and 3 damage to you.\nDraw a card.",
+    "mana_cost": "{1}{R}{R}",
+    "colors": [
+      "R"
+    ],
+    "color_identity": [
+      "R"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 14965,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "178",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.jpg?1616275362",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.jpg?1616275362",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.jpg?1616275362",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.png?1616275362",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.jpg?1616275362",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/a/0afae574-aa96-4500-9882-a4b10337b6f5.jpg?1616275362"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "\"No ready! No aim! Just fire!\"\n—Scarback Plagg, orcish captain",
+    "artist": "Chris Seaman",
+    "illustration_id": "aee530b9-5a33-42a1-9162-0ed31c8cfea5",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=234008&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Orcish-Cannonade?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Orcish+Cannonade&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509543",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Orcish+Cannonade&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Orcish+Cannonade&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Orcish+Cannonade",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Orcish+Cannonade"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "29a2a28e-c241-4228-9ece-2e49d4d3733a",
+    "oracle_id": "e76a1371-76c8-46dd-ba43-87fb0ab940d4",
+    "multiverse_ids": [
+      509396
+    ],
+    "uri": "https://api.scryfall.com/cards/29a2a28e-c241-4228-9ece-2e49d4d3733a",
+    "scryfall_uri": "https://scryfall.com/card/tsr/31/pallid-mycoderm?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ae76a1371-76c8-46dd-ba43-87fb0ab940d4&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/29a2a28e-c241-4228-9ece-2e49d4d3733a/rulings",
+    "name": "Pallid Mycoderm",
+    "layout": "normal",
+    "cmc": 4.0,
+    "type_line": "Creature — Fungus",
+    "oracle_text": "At the beginning of your upkeep, put a spore counter on Pallid Mycoderm.\nRemove three spore counters from Pallid Mycoderm: Create a 1/1 green Saproling creature token.\nSacrifice a Saproling: Each creature you control that's a Fungus or a Saproling gets +1/+1 until end of turn.",
+    "mana_cost": "{3}{W}",
+    "power": "2",
+    "toughness": "4",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "all_parts": [
+      {
+        "id": "29a2a28e-c241-4228-9ece-2e49d4d3733a",
+        "name": "Pallid Mycoderm",
+        "uri": "https://api.scryfall.com/cards/29a2a28e-c241-4228-9ece-2e49d4d3733a"
+      },
+      {
+        "id": "ed58cd8c-b11a-4109-b789-0eb92eaf0184",
+        "name": "Saproling",
+        "uri": "https://api.scryfall.com/cards/ed58cd8c-b11a-4109-b789-0eb92eaf0184"
+      }
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 8906,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "31",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.jpg?1616280576",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.jpg?1616280576",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.jpg?1616280576",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.png?1616280576",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.jpg?1616280576",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/2/9/29a2a28e-c241-4228-9ece-2e49d4d3733a.jpg?1616280576"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "Jim Nelson",
+    "illustration_id": "47283f50-0e82-428f-bda7-3f9b21f38446",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233397&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Pallid+Mycoderm&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Pallid+Mycoderm&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509396",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Pallid+Mycoderm&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Pallid+Mycoderm&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Pallid+Mycoderm",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Pallid+Mycoderm"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "b794e97e-8b2c-4bde-8028-4348de5aec83",
+    "oracle_id": "665e52f1-901b-49a1-bfbd-ee38bdee8983",
+    "multiverse_ids": [
+      509636
+    ],
+    "uri": "https://api.scryfall.com/cards/b794e97e-8b2c-4bde-8028-4348de5aec83",
+    "scryfall_uri": "https://scryfall.com/card/tsr/271/paradise-plume?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A665e52f1-901b-49a1-bfbd-ee38bdee8983&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/b794e97e-8b2c-4bde-8028-4348de5aec83/rulings",
+    "name": "Paradise Plume",
+    "layout": "normal",
+    "cmc": 4.0,
+    "type_line": "Artifact",
+    "oracle_text": "As Paradise Plume enters the battlefield, choose a color.\nWhenever a player casts a spell of the chosen color, you may gain 1 life.\n{T}: Add one mana of the chosen color.",
+    "mana_cost": "{4}",
+    "colors": [],
+    "color_identity": [],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 6914,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "271",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.jpg?1616279057",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.jpg?1616279057",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.jpg?1616279057",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.png?1616279057",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.jpg?1616279057",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/7/b794e97e-8b2c-4bde-8028-4348de5aec83.jpg?1616279057"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "uncommon",
+    "flavor_text": "A last wisp of paradise in a fallen world.",
+    "artist": "Wayne England",
+    "illustration_id": "5f070626-060f-47ba-a251-040bfb107d65",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=234342&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Paradise-Plume?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Paradise+Plume&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509636",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Paradise+Plume&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Paradise+Plume&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Paradise+Plume",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Paradise+Plume"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8",
+    "oracle_id": "dffde884-15bc-4985-90e2-a0888ef4cb48",
+    "multiverse_ids": [
+      509443
+    ],
+    "uri": "https://api.scryfall.com/cards/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8",
+    "scryfall_uri": "https://scryfall.com/card/tsr/78/piracy-charm?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Adffde884-15bc-4985-90e2-a0888ef4cb48&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8/rulings",
+    "name": "Piracy Charm",
+    "layout": "normal",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Target creature gains islandwalk until end of turn. (It can't be blocked as long as defending player controls an Island.)\n• Target creature gets +2/-1 until end of turn.\n• Target player discards a card.",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 13855,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "78",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.jpg?1616286909",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.jpg?1616286909",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.jpg?1616286909",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.png?1616286909",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.jpg?1616286909",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/c/9cb19ac2-edf9-4f9a-b9ba-2a33ba96a4d8.jpg?1616286909"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "artist": "John Avon",
+    "illustration_id": "ad8152f6-e722-4cd1-9ed5-c418c9e25bea",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233773&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Piracy-Charm?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Piracy+Charm&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509443",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Piracy+Charm&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Piracy+Charm&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Piracy+Charm",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Piracy+Charm"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "5f731d16-d969-40a8-a002-4d40eb8f6bac",
+    "oracle_id": "e1c5bfae-07cb-4194-8a86-201503e17085",
+    "multiverse_ids": [
+      509495
+    ],
+    "uri": "https://api.scryfall.com/cards/5f731d16-d969-40a8-a002-4d40eb8f6bac",
+    "scryfall_uri": "https://scryfall.com/card/tsr/130/pit-keeper?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ae1c5bfae-07cb-4194-8a86-201503e17085&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/5f731d16-d969-40a8-a002-4d40eb8f6bac/rulings",
+    "name": "Pit Keeper",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When Pit Keeper enters the battlefield, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand.",
+    "mana_cost": "{1}{B}",
+    "power": "2",
+    "toughness": "1",
+    "colors": [
+      "B"
+    ],
+    "color_identity": [
+      "B"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 8801,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "130",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.jpg?1616272994",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.jpg?1616272994",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.jpg?1616272994",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.png?1616272994",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.jpg?1616272994",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/f/5f731d16-d969-40a8-a002-4d40eb8f6bac.jpg?1616272994"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "\"The undead are not 'awakened.' They are evicted when there is no room left in the pit for more bodies.\"",
+    "artist": "Anthony S. Waters",
+    "illustration_id": "0abc0d3b-7519-46aa-ab9b-9e86547ffb2c",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233876&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Time-Spiral-Remastered/Pit-Keeper?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Pit+Keeper&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509495",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Pit+Keeper&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Pit+Keeper&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Pit+Keeper",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Pit+Keeper"
+    },
+    "pocet": 0,
+    "poradie": 0
+  },
+  {
+    "id": "bc6db2cf-5171-4791-82b4-c9fac37902a3",
+    "oracle_id": "6be3cf35-f774-4afb-8c1f-5c9b616a2b3f",
+    "multiverse_ids": [
+      509398
+    ],
+    "uri": "https://api.scryfall.com/cards/bc6db2cf-5171-4791-82b4-c9fac37902a3",
+    "scryfall_uri": "https://scryfall.com/card/tsr/33/poultice-sliver?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A6be3cf35-f774-4afb-8c1f-5c9b616a2b3f&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/bc6db2cf-5171-4791-82b4-c9fac37902a3/rulings",
+    "name": "Poultice Sliver",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Creature — Sliver",
+    "oracle_text": "All Slivers have \"{2}, {T}: Regenerate target Sliver.\"",
+    "mana_cost": "{2}{W}",
+    "power": "2",
+    "toughness": "2",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 10888,
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "collector_number": "33",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Atsr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/tsr?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.jpg?1616281270",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.jpg?1616281270",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.jpg?1616281270",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.png?1616281270",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.jpg?1616281270",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/c/bc6db2cf-5171-4791-82b4-c9fac37902a3.jpg?1616281270"
+    },
+    "highres_image": false,
+    "reprint": true,
+    "digital": false,
+    "rarity": "uncommon",
+    "flavor_text": "\"Its broad claw suggests a chitinous shield, but in fact it conceals glands that secrete a remarkably swift healing agent.\"\n—Rukarumel, field journal",
+    "artist": "Randy Gallegos",
+    "illustration_id": "0e60d4c2-735c-4f73-80af-72c8b22b12dd",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=233662&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Poultice+Sliver&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Poultice+Sliver&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509398",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Poultice+Sliver&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Poultice+Sliver&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Poultice+Sliver",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Poultice+Sliver"
+    },
+    "Effects": "F",
+    "pocet": 0,
+    "poradie": 0
+  }
+]

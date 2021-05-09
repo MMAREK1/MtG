@@ -311,7 +311,7 @@ using System.Collections.Generic;
 			Showcase=Showcase,
 			Edition=set,
 			ManaCost=Mana
-		});
+		},true);
        count=cards.Length; 
     }
 

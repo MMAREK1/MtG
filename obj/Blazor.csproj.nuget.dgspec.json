@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\priestor\\MTG\\Blazor\\Blazor.csproj": {}
+    "c:\\priestor\\MTG\\Blazor\\Blazor.csproj": {}
   },
   "projects": {
-    "C:\\priestor\\MTG\\Blazor\\Blazor.csproj": {
+    "c:\\priestor\\MTG\\Blazor\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+        "projectUniqueName": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "C:\\priestor\\MTG\\Blazor\\Blazor.csproj",
+        "projectPath": "c:\\priestor\\MTG\\Blazor\\Blazor.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\priestor\\MTG\\Blazor\\obj\\",
+        "outputPath": "c:\\priestor\\MTG\\Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,7 +24,9 @@ namespace Scryfall.API.Models
         [EnumMember(Value = "rare")]
         Rare,
         [EnumMember(Value = "mythic")]
-        Mythic
+        Mythic,
+        [EnumMember(Value = "special")]
+        Special
     }
     internal static class RarityEnumExtension
     {
@@ -45,6 +47,8 @@ namespace Scryfall.API.Models
                     return "rare";
                 case Rarity.Mythic:
                     return "mythic";
+                case Rarity.Special:
+                    return "special";
             }
             return null;
         }
@@ -61,6 +65,8 @@ namespace Scryfall.API.Models
                     return Rarity.Rare;
                 case "mythic":
                     return Rarity.Mythic;
+                case "special":
+                    return Rarity.Special;
             }
             return null;
         }

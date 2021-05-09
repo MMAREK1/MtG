@@ -102,6 +102,13 @@ using System.Collections.Generic;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\priestor\MTG\Blazor\Pages\Add.razor"
+using BlazorInputFile;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/Add")]
     public partial class Add : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -111,31 +118,54 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 46 "C:\priestor\MTG\Blazor\Pages\Add.razor"
-       	
-	private string koniec;
-	private string zoznam;
-	private List<string> files=new List<string>();
-	private string subor;
-	private string[] fileEntries;
+#line 49 "C:\priestor\MTG\Blazor\Pages\Add.razor"
+       
+    private string koniec;
+    private string zoznam;
+    private List<string> files = new List<string>();
+    private string subor;
+    private string[] fileEntries;
+
+    string status;
+    IFileListEntry file;
+
+    void HandleFileSelected(IFileListEntry[] files)
+    {
+        file = files.FirstOrDefault();
+        status = "Subor pripraveny "+file.Name;
+        koniec = null;
+    }
+
+    async Task CountLines()
+    {
+        List<string> zoznam = new List<string>();
+        using (var reader = new System.IO.StreamReader(file.Data))
+        {
+            Console.WriteLine("reader");
+            string riadok;
+            while ((riadok = await reader.ReadLineAsync())!=null)
+            {
+                zoznam.Add(riadok);
+                Console.WriteLine("riadok");
+            }
+        }
+        Console.WriteLine("pred");
+        koniec = await PridatService.AddListCards(subor, zoznam);
+        status = null;
+    }
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         await jsRuntime.InvokeAsync<bool>("ResizeTextArea", "Comments");
     }
 
-    
+
     protected override async Task OnInitializedAsync()
     {
-		fileEntries = Directory.GetFiles(@"json\");
-		files = fileEntries.ToList();
-        subor=fileEntries[0];
-    }
-	
-	private async Task AddCards()
-    {
-        koniec = await PridatService.AddCards(subor, zoznam);
-        zoznam=null;
+        fileEntries = Directory.GetFiles(@"json\");
+        files = fileEntries.ToList();
+        subor = fileEntries[0];
     }
 
 #line default

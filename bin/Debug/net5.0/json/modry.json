@@ -223,24 +223,26 @@
     "pocet": 0
   },
   {
-    "id": "c0889e22-deab-48ba-bbd6-f0d49bee5d9c",
-    "oracle_id": "b39f228f-d146-49c6-bab4-5304e0f742d8",
+    "id": "7edbde38-1653-4eb5-b196-8881375781cb",
+    "oracle_id": "52d349e7-4bd2-468a-ab26-df8cd262f6f6",
     "multiverse_ids": [
-      497578
+      435209
     ],
-    "mtgo_id": 84898,
-    "uri": "https://api.scryfall.com/cards/c0889e22-deab-48ba-bbd6-f0d49bee5d9c",
-    "scryfall_uri": "https://scryfall.com/card/cmr/58/azure-fleet-admiral?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ab39f228f-d146-49c6-bab4-5304e0f742d8&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/c0889e22-deab-48ba-bbd6-f0d49bee5d9c/rulings",
-    "name": "Azure Fleet Admiral",
+    "mtgo_id": 65126,
+    "arena_id": 66075,
+    "mtgo_foil_id": 65127,
+    "uri": "https://api.scryfall.com/cards/7edbde38-1653-4eb5-b196-8881375781cb",
+    "scryfall_uri": "https://scryfall.com/card/xln/57/fleet-swallower?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A52d349e7-4bd2-468a-ab26-df8cd262f6f6&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/7edbde38-1653-4eb5-b196-8881375781cb/rulings",
+    "name": "Fleet Swallower",
     "layout": "normal",
-    "cmc": 4.0,
-    "type_line": "Creature — Human Pirate",
-    "oracle_text": "When Azure Fleet Admiral enters the battlefield, you become the monarch.\nAzure Fleet Admiral can't be blocked by creatures the monarch controls.",
-    "mana_cost": "{3}{U}",
-    "power": "3",
-    "toughness": "3",
+    "cmc": 7.0,
+    "type_line": "Creature — Fish",
+    "oracle_text": "Whenever Fleet Swallower attacks, target player mills half their library, rounded up.",
+    "mana_cost": "{5}{U}{U}",
+    "power": "6",
+    "toughness": "6",
     "colors": [
       "U"
     ],
@@ -250,50 +252,50 @@
     "legalities": {
       "standard": "not_legal",
       "future": "not_legal",
-      "modern": "not_legal",
+      "modern": "legal",
       "legacy": "legal",
-      "pauper": "legal",
+      "pauper": "not_legal",
       "vintage": "legal",
-      "penny": "not_legal",
+      "penny": "legal",
       "commander": "legal",
       "duel": "legal",
       "brawl": "not_legal"
     },
     "reserved": false,
-    "edhrec_rank": 7353,
-    "set": "cmr",
-    "set_name": "Commander Legends",
-    "collector_number": "58",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acmr&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/cmr?utm_source=api",
+    "edhrec_rank": 2240,
+    "set": "xln",
+    "set_name": "Ixalan",
+    "collector_number": "57",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Axln&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/xln?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.jpg?1608909111",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.jpg?1608909111",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.jpg?1608909111",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.png?1608909111",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.jpg?1608909111",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/0/c0889e22-deab-48ba-bbd6-f0d49bee5d9c.jpg?1608909111"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.jpg?1562558856",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.jpg?1562558856",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.jpg?1562558856",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.png?1562558856",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.jpg?1562558856",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/e/7edbde38-1653-4eb5-b196-8881375781cb.jpg?1562558856"
     },
     "highres_image": true,
     "reprint": false,
     "digital": false,
-    "rarity": "common",
-    "flavor_text": "\"Your concern for my safety is touching, but as long as your gunners remain reliably erratic, I see no reason to change course.\"\n—Admiral Yelise, to Commodore Axurik",
-    "artist": "Sidharth Chaturvedi",
-    "illustration_id": "af70030f-995d-4be1-8c27-a618dd28107c",
+    "rarity": "rare",
+    "flavor_text": "\"Captain, I think that island is following us.\"",
+    "artist": "Tomasz Jedruszek",
+    "illustration_id": "6c71a0ff-f1b1-4711-9d34-76dbe24d26a5",
     "frame": "2015",
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=227194&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Azure+Fleet+Admiral&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/84898?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=145637&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Fleet+Swallower&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/65126?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497578",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Azure+Fleet+Admiral&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Azure+Fleet+Admiral",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Azure+Fleet+Admiral"
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=435209",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Fleet+Swallower&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Fleet+Swallower",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Fleet+Swallower"
     },
     "pocet": 0
   },
@@ -1280,6 +1282,71 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Dreamcaller+Siren&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Dreamcaller+Siren",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Dreamcaller+Siren"
+    },
+    "pocet": 0
+  },
+  {
+    "id": "7485dde2-ee5a-4c5e-a969-354a7b3f7936",
+    "oracle_id": "9ad4f730-a18e-4a7c-a468-a926c718c741",
+    "multiverse_ids": [],
+    "uri": "https://api.scryfall.com/cards/7485dde2-ee5a-4c5e-a969-354a7b3f7936",
+    "scryfall_uri": "https://scryfall.com/card/mb1/1649/whispersilk-cloak?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A9ad4f730-a18e-4a7c-a468-a926c718c741&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/7485dde2-ee5a-4c5e-a969-354a7b3f7936/rulings",
+    "name": "Whispersilk Cloak",
+    "layout": "normal",
+    "cmc": 3.0,
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)\nEquip {2}",
+    "mana_cost": "{3}",
+    "colors": [],
+    "color_identity": [],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 166,
+    "set": "mb1",
+    "set_name": "Mystery Booster",
+    "collector_number": "1649",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Amb1&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/mb1?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.jpg?1573517595",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.jpg?1573517595",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.jpg?1573517595",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.png?1573517595",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.jpg?1573517595",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/4/7485dde2-ee5a-4c5e-a969-354a7b3f7936.jpg?1573517595"
+    },
+    "highres_image": true,
+    "reprint": true,
+    "digital": false,
+    "rarity": "uncommon",
+    "flavor_text": "Such cloaks are in high demand both by assassins and by those who fear them.",
+    "artist": "Daren Bader",
+    "illustration_id": "755d8c87-d84d-465d-b885-3f41bd8c08aa",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=203105&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Whispersilk+Cloak&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Whispersilk+Cloak&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Whispersilk+Cloak&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Whispersilk+Cloak",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Whispersilk+Cloak"
     },
     "pocet": 0
   },
@@ -2424,6 +2491,81 @@
     "pocet": 0
   },
   {
+    "id": "b33e493e-1aef-43b3-9716-52158b002430",
+    "oracle_id": "2f990b54-fbf3-4949-85bb-9ba39710e72a",
+    "multiverse_ids": [
+      435205
+    ],
+    "mtgo_id": 65118,
+    "arena_id": 66067,
+    "mtgo_foil_id": 65119,
+    "uri": "https://api.scryfall.com/cards/b33e493e-1aef-43b3-9716-52158b002430",
+    "scryfall_uri": "https://scryfall.com/card/xln/53/dive-down?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A2f990b54-fbf3-4949-85bb-9ba39710e72a&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/b33e493e-1aef-43b3-9716-52158b002430/rulings",
+    "name": "Dive Down",
+    "layout": "normal",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)",
+    "mana_cost": "{U}",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 5437,
+    "set": "xln",
+    "set_name": "Ixalan",
+    "collector_number": "53",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Axln&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/xln?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.png?1562562509",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/b/3/b33e493e-1aef-43b3-9716-52158b002430.jpg?1562562509"
+    },
+    "highres_image": true,
+    "reprint": false,
+    "digital": false,
+    "rarity": "common",
+    "flavor_text": "\"Seeing the river is not the same as seeing the fish.\"",
+    "artist": "Magali Villeneuve",
+    "illustration_id": "8c6e66cb-f420-4cc3-8c3a-67db605bee1f",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=145743&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Dive+Down&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/65118?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=435205",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Dive+Down&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Dive+Down",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Dive+Down"
+    },
+    "pocet": 0
+  },
+  {
     "id": "98b3d18c-7029-4eff-a918-f75e7d9d79d7",
     "oracle_id": "761ebd6a-8f53-46fa-b3cd-16616b773007",
     "multiverse_ids": [
@@ -2494,91 +2636,6 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Just+the+Wind&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Just+the+Wind",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Just+the+Wind"
-    },
-    "pocet": 0
-  },
-  {
-    "id": "f03b5405-6016-405b-a504-a454731b9276",
-    "oracle_id": "ba0082fb-2d4c-489e-8140-93a6fa693fd0",
-    "multiverse_ids": [
-      460986
-    ],
-    "mtgo_id": 71724,
-    "arena_id": 69510,
-    "uri": "https://api.scryfall.com/cards/f03b5405-6016-405b-a504-a454731b9276",
-    "scryfall_uri": "https://scryfall.com/card/war/59/lazotep-plating?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aba0082fb-2d4c-489e-8140-93a6fa693fd0&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/f03b5405-6016-405b-a504-a454731b9276/rulings",
-    "name": "Lazotep Plating",
-    "layout": "normal",
-    "cmc": 2.0,
-    "type_line": "Instant",
-    "oracle_text": "Amass 1. (Put a +1/+1 counter on an Army you control. If you don't control one, create a 0/0 black Zombie Army creature token first.)\nYou and permanents you control gain hexproof until end of turn. (You and they can't be the targets of spells or abilities your opponents control.)",
-    "mana_cost": "{1}{U}",
-    "colors": [
-      "U"
-    ],
-    "color_identity": [
-      "U"
-    ],
-    "all_parts": [
-      {
-        "id": "f03b5405-6016-405b-a504-a454731b9276",
-        "name": "Lazotep Plating",
-        "uri": "https://api.scryfall.com/cards/f03b5405-6016-405b-a504-a454731b9276"
-      },
-      {
-        "id": "2f4b7c63-8430-4ca4-baee-dc958d5bd22f",
-        "name": "Zombie Army",
-        "uri": "https://api.scryfall.com/cards/2f4b7c63-8430-4ca4-baee-dc958d5bd22f"
-      }
-    ],
-    "legalities": {
-      "standard": "not_legal",
-      "future": "not_legal",
-      "modern": "legal",
-      "legacy": "legal",
-      "pauper": "not_legal",
-      "vintage": "legal",
-      "penny": "legal",
-      "commander": "legal",
-      "duel": "legal",
-      "brawl": "not_legal"
-    },
-    "reserved": false,
-    "edhrec_rank": 2144,
-    "set": "war",
-    "set_name": "War of the Spark",
-    "collector_number": "59",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Awar&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/war?utm_source=api",
-    "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1557576262",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1557576262",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1557576262",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/0/f03b5405-6016-405b-a504-a454731b9276.png?1557576262",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1557576262",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/0/f03b5405-6016-405b-a504-a454731b9276.jpg?1557576262"
-    },
-    "highres_image": true,
-    "reprint": false,
-    "digital": false,
-    "rarity": "uncommon",
-    "artist": "Yeong-Hao Han",
-    "illustration_id": "a2dc721d-c893-4508-a74a-cb5826a27929",
-    "frame": "2015",
-    "full_art": false,
-    "border_color": "black",
-    "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=187248&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Lazotep+Plating&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/71724?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
-    },
-    "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460986",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Lazotep+Plating&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Lazotep+Plating",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Lazotep+Plating"
     },
     "pocet": 0
   },
@@ -2732,25 +2789,24 @@
     "pocet": 0
   },
   {
-    "id": "eb0fadba-4205-47ce-b4cf-e0ff7308749b",
-    "oracle_id": "d2ef475d-6043-4da8-83f0-dffa76052707",
+    "id": "cce06cd4-099b-445f-af95-76564ee24668",
+    "oracle_id": "cf127842-5fb1-44df-8d91-8cc0f48c559a",
     "multiverse_ids": [
-      409816
+      497610
     ],
-    "mtgo_id": 59938,
-    "mtgo_foil_id": 59939,
-    "uri": "https://api.scryfall.com/cards/eb0fadba-4205-47ce-b4cf-e0ff7308749b",
-    "scryfall_uri": "https://scryfall.com/card/soi/73/manic-scribe?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Ad2ef475d-6043-4da8-83f0-dffa76052707&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/eb0fadba-4205-47ce-b4cf-e0ff7308749b/rulings",
-    "name": "Manic Scribe",
+    "mtgo_id": 84962,
+    "uri": "https://api.scryfall.com/cards/cce06cd4-099b-445f-af95-76564ee24668",
+    "scryfall_uri": "https://scryfall.com/card/cmr/90/sakashimas-protege?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Acf127842-5fb1-44df-8d91-8cc0f48c559a&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/cce06cd4-099b-445f-af95-76564ee24668/rulings",
+    "name": "Sakashima's Protege",
     "layout": "normal",
-    "cmc": 2.0,
-    "type_line": "Creature — Human Wizard",
-    "oracle_text": "When Manic Scribe enters the battlefield, each opponent mills three cards.\nDelirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, that player mills three cards.",
-    "mana_cost": "{1}{U}",
-    "power": "0",
-    "toughness": "3",
+    "cmc": 6.0,
+    "type_line": "Creature — Shapeshifter",
+    "oracle_text": "Flash\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.)\nYou may have Sakashima's Protege enter the battlefield as a copy of any permanent that entered the battlefield this turn.",
+    "mana_cost": "{4}{U}{U}",
+    "power": "3",
+    "toughness": "1",
     "colors": [
       "U"
     ],
@@ -2760,50 +2816,51 @@
     "legalities": {
       "standard": "not_legal",
       "future": "not_legal",
-      "modern": "legal",
+      "modern": "not_legal",
       "legacy": "legal",
       "pauper": "not_legal",
       "vintage": "legal",
-      "penny": "legal",
+      "penny": "not_legal",
       "commander": "legal",
       "duel": "legal",
       "brawl": "not_legal"
     },
     "reserved": false,
-    "edhrec_rank": 4338,
-    "set": "soi",
-    "set_name": "Shadows over Innistrad",
-    "collector_number": "73",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Asoi&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/soi?utm_source=api",
+    "edhrec_rank": 5167,
+    "set": "cmr",
+    "set_name": "Commander Legends",
+    "collector_number": "90",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acmr&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/cmr?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.jpg?1576384140",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.jpg?1576384140",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.jpg?1576384140",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.png?1576384140",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.jpg?1576384140",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/e/b/eb0fadba-4205-47ce-b4cf-e0ff7308749b.jpg?1576384140"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.jpg?1608909409",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.jpg?1608909409",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.jpg?1608909409",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.png?1608909409",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.jpg?1608909409",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/c/cce06cd4-099b-445f-af95-76564ee24668.jpg?1608909409"
     },
     "highres_image": true,
     "reprint": false,
     "digital": false,
-    "rarity": "uncommon",
-    "artist": "Matt Stewart",
-    "illustration_id": "9a514fa9-1930-4447-b6db-0ee48e69b81b",
+    "rarity": "rare",
+    "artist": "Tyler Walpole",
+    "illustration_id": "3f2122c5-8498-4c89-ae3d-6aa1120f1b38",
     "frame": "2015",
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=115907&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Manic+Scribe&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/59938?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=227012&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sakashima%27s+Protege&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/84962?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=409816",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Manic+Scribe&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Manic+Scribe",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Manic+Scribe"
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497610",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Sakashima%27s+Protege&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Sakashima%27s+Protege",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Sakashima%27s+Protege"
     },
+    "Effects": "S",
     "pocet": 0
   },
   {
@@ -3109,76 +3166,6 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Mindcrank&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Mindcrank",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Mindcrank"
-    },
-    "pocet": 0
-  },
-  {
-    "id": "f244e106-a219-460d-97ab-6ad8e7f03ba5",
-    "oracle_id": "30e3e48c-98dc-4d27-b7ea-e81d39f7d24e",
-    "multiverse_ids": [],
-    "uri": "https://api.scryfall.com/cards/f244e106-a219-460d-97ab-6ad8e7f03ba5",
-    "scryfall_uri": "https://scryfall.com/card/plist/66/mischievous-quanar?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A30e3e48c-98dc-4d27-b7ea-e81d39f7d24e&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/f244e106-a219-460d-97ab-6ad8e7f03ba5/rulings",
-    "name": "Mischievous Quanar",
-    "layout": "normal",
-    "cmc": 5.0,
-    "type_line": "Creature — Beast",
-    "oracle_text": "{3}{U}{U}: Turn Mischievous Quanar face down.\nMorph {1}{U}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)\nWhen Mischievous Quanar is turned face up, copy target instant or sorcery spell. You may choose new targets for that copy.",
-    "mana_cost": "{4}{U}",
-    "power": "3",
-    "toughness": "3",
-    "colors": [
-      "U"
-    ],
-    "color_identity": [
-      "U"
-    ],
-    "legalities": {
-      "standard": "not_legal",
-      "future": "not_legal",
-      "modern": "not_legal",
-      "legacy": "legal",
-      "pauper": "not_legal",
-      "vintage": "legal",
-      "penny": "legal",
-      "commander": "legal",
-      "duel": "legal",
-      "brawl": "not_legal"
-    },
-    "reserved": false,
-    "edhrec_rank": 4609,
-    "set": "plist",
-    "set_name": "The List",
-    "collector_number": "66",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aplist&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/plist?utm_source=api",
-    "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.jpg?1599769164",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.jpg?1599769164",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.jpg?1599769164",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.png?1599769164",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.jpg?1599769164",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/f/2/f244e106-a219-460d-97ab-6ad8e7f03ba5.jpg?1599769164"
-    },
-    "highres_image": true,
-    "reprint": true,
-    "digital": false,
-    "rarity": "rare",
-    "artist": "Lars Grant-West",
-    "illustration_id": "5aded896-7471-4505-8c44-9d3d259b0a73",
-    "frame": "1997",
-    "full_art": false,
-    "border_color": "black",
-    "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=222749&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Mischievous+Quanar&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Mischievous+Quanar&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
-    },
-    "related_uris": {
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Mischievous+Quanar&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Mischievous+Quanar",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Mischievous+Quanar"
     },
     "pocet": 0
   },
@@ -4141,23 +4128,23 @@
     "pocet": 0
   },
   {
-    "id": "7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a",
-    "oracle_id": "9b3bcd57-bf3f-4d72-810a-fdb5c8ea1551",
+    "id": "c878bdc0-d697-4a2f-bba5-758b27f4247a",
+    "oracle_id": "f5479d4f-bc4b-4452-a944-41be623f8367",
     "multiverse_ids": [
-      503682
+      460999
     ],
-    "mtgo_id": 87475,
-    "arena_id": 75113,
-    "uri": "https://api.scryfall.com/cards/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a",
-    "scryfall_uri": "https://scryfall.com/card/khm/74/run-ashore?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A9b3bcd57-bf3f-4d72-810a-fdb5c8ea1551&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a/rulings",
-    "name": "Run Ashore",
+    "mtgo_id": 71750,
+    "arena_id": 69523,
+    "uri": "https://api.scryfall.com/cards/c878bdc0-d697-4a2f-bba5-758b27f4247a",
+    "scryfall_uri": "https://scryfall.com/card/war/72/teferis-time-twist?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Af5479d4f-bc4b-4452-a944-41be623f8367&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/c878bdc0-d697-4a2f-bba5-758b27f4247a/rulings",
+    "name": "Teferi's Time Twist",
     "layout": "normal",
-    "cmc": 6.0,
+    "cmc": 2.0,
     "type_line": "Instant",
-    "oracle_text": "Choose one or both —\n• The owner of target nonland permanent puts it on the top or bottom of their library.\n• Return target nonland permanent to its owner's hand.",
-    "mana_cost": "{4}{U}{U}",
+    "oracle_text": "Exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step. If it enters the battlefield as a creature, it enters with an additional +1/+1 counter on it.",
+    "mana_cost": "{1}{U}",
     "colors": [
       "U"
     ],
@@ -4165,8 +4152,8 @@
       "U"
     ],
     "legalities": {
-      "standard": "legal",
-      "future": "legal",
+      "standard": "not_legal",
+      "future": "not_legal",
       "modern": "legal",
       "legacy": "legal",
       "pauper": "legal",
@@ -4174,43 +4161,118 @@
       "penny": "legal",
       "commander": "legal",
       "duel": "legal",
-      "brawl": "legal"
+      "brawl": "not_legal"
     },
     "reserved": false,
-    "edhrec_rank": 20270,
-    "set": "khm",
-    "set_name": "Kaldheim",
-    "collector_number": "74",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/khm?utm_source=api",
+    "edhrec_rank": 2107,
+    "set": "war",
+    "set_name": "War of the Spark",
+    "collector_number": "72",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Awar&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/war?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.png?1610389872",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a.jpg?1610389872"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1557576342",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1557576342",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1557576342",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.png?1557576342",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1557576342",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/c/8/c878bdc0-d697-4a2f-bba5-758b27f4247a.jpg?1557576342"
     },
     "highres_image": true,
     "reprint": false,
     "digital": false,
     "rarity": "common",
-    "flavor_text": "\"Which one of you slug-brained milksops forgot to make an offering to Cosima?\"\n—Jolkur, navigator",
-    "artist": "Svetlin Velinov",
-    "illustration_id": "2e6e60d7-104a-43cf-9849-7e427d55f1ba",
+    "flavor_text": "\"The safest place for you is not now.\"",
+    "artist": "Ralph Horsley",
+    "illustration_id": "a5d7c2cf-650c-43a9-b1b4-b851eb5677c3",
     "frame": "2015",
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230217&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Run+Ashore&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/87475?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=187221&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Teferi%27s+Time+Twist&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/71750?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=503682",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Run+Ashore&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Run+Ashore",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Run+Ashore"
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=460999",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Teferi%27s+Time+Twist&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Teferi%27s+Time+Twist",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Teferi%27s+Time+Twist"
+    },
+    "pocet": 0
+  },
+  {
+    "id": "03a353c1-a640-4b01-9754-3fb6011c8211",
+    "oracle_id": "02393093-e970-40a0-848b-9cd758450cbb",
+    "multiverse_ids": [
+      439695
+    ],
+    "mtgo_id": 66529,
+    "arena_id": 66693,
+    "uri": "https://api.scryfall.com/cards/03a353c1-a640-4b01-9754-3fb6011c8211",
+    "scryfall_uri": "https://scryfall.com/card/rix/38/flood-of-recollection?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A02393093-e970-40a0-848b-9cd758450cbb&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/03a353c1-a640-4b01-9754-3fb6011c8211/rulings",
+    "name": "Flood of Recollection",
+    "layout": "normal",
+    "cmc": 2.0,
+    "type_line": "Sorcery",
+    "oracle_text": "Return target instant or sorcery card from your graveyard to your hand. Exile Flood of Recollection.",
+    "mana_cost": "{U}{U}",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "legal",
+      "vintage": "legal",
+      "penny": "legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 3643,
+    "set": "rix",
+    "set_name": "Rivals of Ixalan",
+    "collector_number": "38",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Arix&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/rix?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.png?1555039900",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/0/3/03a353c1-a640-4b01-9754-3fb6011c8211.jpg?1555039900"
+    },
+    "highres_image": true,
+    "reprint": false,
+    "digital": false,
+    "rarity": "uncommon",
+    "flavor_text": "Jace tumbled down the waterfall and plunged deep into his past.",
+    "artist": "Magali Villeneuve",
+    "illustration_id": "ca04c13c-d7e9-4012-94e6-97d0cd545ce3",
+    "frame": "2015",
+    "full_art": false,
+    "watermark": "planeswalker",
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=155681&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Flood+of+Recollection&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/66529?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=439695",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Flood+of+Recollection&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Flood+of+Recollection",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Flood+of+Recollection"
     },
     "pocet": 0
   },
@@ -4507,6 +4569,91 @@
     "pocet": 0
   },
   {
+    "id": "1da4d4f3-b3cb-4b61-81b8-06ae441c41bf",
+    "oracle_id": "8c0520fa-276b-4d21-b4a9-dce1fce59f6b",
+    "multiverse_ids": [
+      479587
+    ],
+    "mtgo_id": 80143,
+    "arena_id": 71134,
+    "uri": "https://api.scryfall.com/cards/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf",
+    "scryfall_uri": "https://scryfall.com/card/iko/67/shark-typhoon?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A8c0520fa-276b-4d21-b4a9-dce1fce59f6b&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf/rulings",
+    "name": "Shark Typhoon",
+    "layout": "normal",
+    "cmc": 6.0,
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's converted mana cost.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle Shark Typhoon, create an X/X blue Shark creature token with flying.",
+    "mana_cost": "{5}{U}",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "all_parts": [
+      {
+        "id": "1da4d4f3-b3cb-4b61-81b8-06ae441c41bf",
+        "name": "Shark Typhoon",
+        "uri": "https://api.scryfall.com/cards/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf"
+      },
+      {
+        "id": "30d12226-6417-4b98-beb5-89a36c774141",
+        "name": "Shark",
+        "uri": "https://api.scryfall.com/cards/30d12226-6417-4b98-beb5-89a36c774141"
+      }
+    ],
+    "legalities": {
+      "standard": "legal",
+      "future": "legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 1861,
+    "set": "iko",
+    "set_name": "Ikoria: Lair of Behemoths",
+    "collector_number": "67",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aiko&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/iko?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1591226502",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1591226502",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1591226502",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.png?1591226502",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1591226502",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/1/d/1da4d4f3-b3cb-4b61-81b8-06ae441c41bf.jpg?1591226502"
+    },
+    "highres_image": true,
+    "reprint": false,
+    "digital": false,
+    "rarity": "rare",
+    "artist": "Caio Monteiro",
+    "illustration_id": "6ea9e1b7-0172-454f-9ab8-70ac63db87fc",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212133&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Shark+Typhoon&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/80143?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=479587",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Shark+Typhoon&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Shark+Typhoon",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Shark+Typhoon"
+    },
+    "pocet": 0
+  },
+  {
     "id": "29b0027d-c232-4cdd-89c4-75947687aa71",
     "oracle_id": "79301ae1-8c9c-4723-be21-dc27e1646f35",
     "multiverse_ids": [
@@ -4574,216 +4721,6 @@
       "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Skyline+Cascade&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
       "edhrec": "https://edhrec.com/route/?cc=Skyline+Cascade",
       "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Skyline+Cascade"
-    },
-    "pocet": 0
-  },
-  {
-    "id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "oracle_id": "5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0",
-    "multiverse_ids": [
-      503898
-    ],
-    "mtgo_id": 87907,
-    "arena_id": 75329,
-    "uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "scryfall_uri": "https://scryfall.com/card/khm/278/snow-covered-island?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a/rulings",
-    "name": "Snow-Covered Island",
-    "layout": "normal",
-    "cmc": 0.0,
-    "type_line": "Basic Snow Land — Island",
-    "oracle_text": "({T}: Add {U}.)",
-    "mana_cost": "",
-    "colors": [],
-    "color_identity": [
-      "U"
-    ],
-    "legalities": {
-      "standard": "legal",
-      "future": "legal",
-      "modern": "legal",
-      "legacy": "legal",
-      "pauper": "legal",
-      "vintage": "legal",
-      "penny": "not_legal",
-      "commander": "legal",
-      "duel": "legal",
-      "brawl": "legal"
-    },
-    "reserved": false,
-    "set": "khm",
-    "set_name": "Kaldheim",
-    "collector_number": "278",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/khm?utm_source=api",
-    "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.png?1610996921",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921"
-    },
-    "highres_image": false,
-    "reprint": true,
-    "digital": false,
-    "rarity": "common",
-    "artist": "Piotr Dura",
-    "illustration_id": "3b6bfcc2-75e3-40ac-be3f-7b0acdbb85df",
-    "frame": "2015",
-    "full_art": false,
-    "border_color": "black",
-    "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230148&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Snow-Covered+Island&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/87907?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
-    },
-    "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=503898",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Snow-Covered+Island&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Snow-Covered+Island",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Snow-Covered+Island"
-    },
-    "pocet": 0
-  },
-  {
-    "id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "oracle_id": "5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0",
-    "multiverse_ids": [
-      503898
-    ],
-    "mtgo_id": 87907,
-    "arena_id": 75329,
-    "uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "scryfall_uri": "https://scryfall.com/card/khm/278/snow-covered-island?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a/rulings",
-    "name": "Snow-Covered Island",
-    "layout": "normal",
-    "cmc": 0.0,
-    "type_line": "Basic Snow Land — Island",
-    "oracle_text": "({T}: Add {U}.)",
-    "mana_cost": "",
-    "colors": [],
-    "color_identity": [
-      "U"
-    ],
-    "legalities": {
-      "standard": "legal",
-      "future": "legal",
-      "modern": "legal",
-      "legacy": "legal",
-      "pauper": "legal",
-      "vintage": "legal",
-      "penny": "not_legal",
-      "commander": "legal",
-      "duel": "legal",
-      "brawl": "legal"
-    },
-    "reserved": false,
-    "set": "khm",
-    "set_name": "Kaldheim",
-    "collector_number": "278",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/khm?utm_source=api",
-    "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.png?1610996921",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921"
-    },
-    "highres_image": false,
-    "reprint": true,
-    "digital": false,
-    "rarity": "common",
-    "artist": "Piotr Dura",
-    "illustration_id": "3b6bfcc2-75e3-40ac-be3f-7b0acdbb85df",
-    "frame": "2015",
-    "full_art": false,
-    "border_color": "black",
-    "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230148&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Snow-Covered+Island&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/87907?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
-    },
-    "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=503898",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Snow-Covered+Island&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Snow-Covered+Island",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Snow-Covered+Island"
-    },
-    "pocet": 0
-  },
-  {
-    "id": "3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "oracle_id": "5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0",
-    "multiverse_ids": [
-      503898
-    ],
-    "mtgo_id": 87907,
-    "arena_id": 75329,
-    "uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a",
-    "scryfall_uri": "https://scryfall.com/card/khm/278/snow-covered-island?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a/rulings",
-    "name": "Snow-Covered Island",
-    "layout": "normal",
-    "cmc": 0.0,
-    "type_line": "Basic Snow Land — Island",
-    "oracle_text": "({T}: Add {U}.)",
-    "mana_cost": "",
-    "colors": [],
-    "color_identity": [
-      "U"
-    ],
-    "legalities": {
-      "standard": "legal",
-      "future": "legal",
-      "modern": "legal",
-      "legacy": "legal",
-      "pauper": "legal",
-      "vintage": "legal",
-      "penny": "not_legal",
-      "commander": "legal",
-      "duel": "legal",
-      "brawl": "legal"
-    },
-    "reserved": false,
-    "set": "khm",
-    "set_name": "Kaldheim",
-    "collector_number": "278",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Akhm&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/khm?utm_source=api",
-    "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.png?1610996921",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a.jpg?1610996921"
-    },
-    "highres_image": false,
-    "reprint": true,
-    "digital": false,
-    "rarity": "common",
-    "artist": "Piotr Dura",
-    "illustration_id": "3b6bfcc2-75e3-40ac-be3f-7b0acdbb85df",
-    "frame": "2015",
-    "full_art": false,
-    "border_color": "black",
-    "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=230148&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Snow-Covered+Island&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/87907?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
-    },
-    "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=503898",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Snow-Covered+Island&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Snow-Covered+Island",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Snow-Covered+Island"
     },
     "pocet": 0
   },
@@ -6403,22 +6340,21 @@
     "pocet": 0
   },
   {
-    "id": "4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a",
-    "oracle_id": "158db438-52ba-4c30-b7bf-d1c4f76da917",
+    "id": "9440d3f3-f4f4-450b-ab88-0acbaeec972b",
+    "oracle_id": "47214acc-08c4-4dcb-9a8b-09196ce41045",
     "multiverse_ids": [
-      398520
+      484884
     ],
-    "mtgo_id": 57908,
-    "mtgo_foil_id": 57909,
-    "uri": "https://api.scryfall.com/cards/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a",
-    "scryfall_uri": "https://scryfall.com/card/ori/76/sphinxs-tutelage?utm_source=api",
-    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A158db438-52ba-4c30-b7bf-d1c4f76da917&unique=prints",
-    "rulings_uri": "https://api.scryfall.com/cards/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a/rulings",
-    "name": "Sphinx's Tutelage",
+    "mtgo_id": 80655,
+    "uri": "https://api.scryfall.com/cards/9440d3f3-f4f4-450b-ab88-0acbaeec972b",
+    "scryfall_uri": "https://scryfall.com/card/c20/37/psychic-impetus?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A47214acc-08c4-4dcb-9a8b-09196ce41045&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/9440d3f3-f4f4-450b-ab88-0acbaeec972b/rulings",
+    "name": "Psychic Impetus",
     "layout": "normal",
     "cmc": 3.0,
-    "type_line": "Enchantment",
-    "oracle_text": "Whenever you draw a card, target opponent mills two cards. If two nonland cards that share a color were milled this way, repeat this process.\n{5}{U}: Draw a card, then discard a card.",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you scry 2.",
     "mana_cost": "{2}{U}",
     "colors": [
       "U"
@@ -6429,50 +6365,138 @@
     "legalities": {
       "standard": "not_legal",
       "future": "not_legal",
-      "modern": "legal",
+      "modern": "not_legal",
       "legacy": "legal",
       "pauper": "not_legal",
       "vintage": "legal",
-      "penny": "legal",
+      "penny": "not_legal",
       "commander": "legal",
       "duel": "legal",
       "brawl": "not_legal"
     },
     "reserved": false,
-    "edhrec_rank": 1810,
-    "set": "ori",
-    "set_name": "Magic Origins",
-    "collector_number": "76",
-    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aori&unique=prints",
-    "scryfall_set_uri": "https://scryfall.com/sets/ori?utm_source=api",
+    "edhrec_rank": 6400,
+    "set": "c20",
+    "set_name": "Commander 2020",
+    "collector_number": "37",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ac20&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/c20?utm_source=api",
     "image_uris": {
-      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.jpg?1562018976",
-      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.jpg?1562018976",
-      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.jpg?1562018976",
-      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.png?1562018976",
-      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.jpg?1562018976",
-      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/4/d/4d90c3b0-f958-4a15-94a1-9bf1b0a9ac2a.jpg?1562018976"
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg?1591319468",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg?1591319468",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg?1591319468",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.png?1591319468",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg?1591319468",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/9/4/9440d3f3-f4f4-450b-ab88-0acbaeec972b.jpg?1591319468"
     },
     "highres_image": true,
     "reprint": false,
     "digital": false,
     "rarity": "uncommon",
-    "flavor_text": "\"You've never considered the implications of dealing with another telepath, Jace.\"",
-    "artist": "Slawomir Maniak",
-    "illustration_id": "66cccfed-9429-4444-af55-f1921a3bd5c5",
+    "artist": "Lindsey Look",
+    "illustration_id": "8996a5fa-3da3-44ac-ac43-29dd4b5be17a",
     "frame": "2015",
     "full_art": false,
     "border_color": "black",
     "purchase_uris": {
-      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=100041&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Sphinx%27s+Tutelage&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
-      "cardhoarder": "https://www.cardhoarder.com/cards/57908?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=212190&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Psychic+Impetus&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/80655?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
     },
     "related_uris": {
-      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398520",
-      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Sphinx%27s+Tutelage&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
-      "edhrec": "https://edhrec.com/route/?cc=Sphinx%27s+Tutelage",
-      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Sphinx%27s+Tutelage"
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=484884",
+      "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Psychic+Impetus&page=1&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Psychic+Impetus",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Psychic+Impetus"
+    },
+    "pocet": 0
+  },
+  {
+    "id": "5fc6adff-dcb3-456d-a8c2-0e77b784ff89",
+    "oracle_id": "dcd4da46-5438-4454-8b1b-43ca51bda1f9",
+    "multiverse_ids": [
+      452795
+    ],
+    "mtgo_id": 69463,
+    "arena_id": 68506,
+    "uri": "https://api.scryfall.com/cards/5fc6adff-dcb3-456d-a8c2-0e77b784ff89",
+    "scryfall_uri": "https://scryfall.com/card/grn/45/murmuring-mystic?utm_source=api",
+    "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Adcd4da46-5438-4454-8b1b-43ca51bda1f9&unique=prints",
+    "rulings_uri": "https://api.scryfall.com/cards/5fc6adff-dcb3-456d-a8c2-0e77b784ff89/rulings",
+    "name": "Murmuring Mystic",
+    "layout": "normal",
+    "cmc": 4.0,
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
+    "mana_cost": "{3}{U}",
+    "power": "1",
+    "toughness": "5",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "all_parts": [
+      {
+        "id": "5fc6adff-dcb3-456d-a8c2-0e77b784ff89",
+        "name": "Murmuring Mystic",
+        "uri": "https://api.scryfall.com/cards/5fc6adff-dcb3-456d-a8c2-0e77b784ff89"
+      },
+      {
+        "id": "03c3dc23-d6f2-4209-82e1-a0b936c94231",
+        "name": "Bird Illusion",
+        "uri": "https://api.scryfall.com/cards/03c3dc23-d6f2-4209-82e1-a0b936c94231"
+      }
+    ],
+    "legalities": {
+      "standard": "not_legal",
+      "future": "not_legal",
+      "modern": "legal",
+      "legacy": "legal",
+      "pauper": "not_legal",
+      "vintage": "legal",
+      "penny": "not_legal",
+      "commander": "legal",
+      "duel": "legal",
+      "brawl": "not_legal"
+    },
+    "reserved": false,
+    "edhrec_rank": 915,
+    "set": "grn",
+    "set_name": "Guilds of Ravnica",
+    "collector_number": "45",
+    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Agrn&unique=prints",
+    "scryfall_set_uri": "https://scryfall.com/sets/grn?utm_source=api",
+    "image_uris": {
+      "small": "https://c1.scryfall.com/file/scryfall-cards/small/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1572892777",
+      "normal": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1572892777",
+      "large": "https://c1.scryfall.com/file/scryfall-cards/large/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1572892777",
+      "png": "https://c1.scryfall.com/file/scryfall-cards/png/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.png?1572892777",
+      "art_crop": "https://c1.scryfall.com/file/scryfall-cards/art_crop/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1572892777",
+      "border_crop": "https://c1.scryfall.com/file/scryfall-cards/border_crop/front/5/f/5fc6adff-dcb3-456d-a8c2-0e77b784ff89.jpg?1572892777"
+    },
+    "highres_image": true,
+    "reprint": false,
+    "digital": false,
+    "rarity": "uncommon",
+    "flavor_text": "Rumors float through the city like crows, alighting on citizens seemingly at random.",
+    "artist": "Mark Winters",
+    "illustration_id": "c4773a04-1364-4dd6-a62b-07da23a61a35",
+    "frame": "2015",
+    "full_art": false,
+    "border_color": "black",
+    "purchase_uris": {
+      "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=175547&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Murmuring+Mystic&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+      "cardhoarder": "https://www.cardhoarder.com/cards/69463?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+    },
+    "related_uris": {
+      "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=452795",
+      "tcgplayer_infinite_articles": "https://infinite.tcgplayer.com/search?contentMode=article&game=magic&partner=scryfall&q=Murmuring+Mystic&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "tcgplayer_infinite_decks": "https://infinite.tcgplayer.com/search?contentMode=deck&game=magic&partner=scryfall&q=Murmuring+Mystic&utm_campaign=affiliate&utm_medium=api&utm_source=scryfall",
+      "edhrec": "https://edhrec.com/route/?cc=Murmuring+Mystic",
+      "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Murmuring+Mystic"
     },
     "pocet": 0
   },

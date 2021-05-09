@@ -33,7 +33,7 @@ namespace Blazor.Data
 				{
 					Url = (c.Layout == Scryfall.API.Models.Layouts.ModalDfc || c.Layout == Scryfall.API.Models.Layouts.Transform) ? c.CardFaces[0].ImageUris.Normal + '|' + c.CardFaces[1].ImageUris.Normal : c.ImageUris.Normal,
 					//string.ReferenceEquals(c.ImageUris.Normal, null)?new Uri("https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg"):new Uri(c.ImageUris.Normal),
-					Name = (!string.IsNullOrWhiteSpace(c.Effects)) ? c.pocet + "x : " + c.Name + " - " + c.Effects : c.pocet + "x : " + c.Name
+					Name = (!string.IsNullOrWhiteSpace(c.Effects)) ? c.pocet + "x : " + c.Name + " - " + c.Set + " - " + c.Effects : c.pocet + "x : " + c.Name + " - " +c.Set
 					//string.ReferenceEquals(c.ImageUris.Normal, null)?c.Name+"\r"+c.OracleText : c.Name
 				}).ToArray());
 
@@ -63,9 +63,9 @@ namespace Blazor.Data
 			return Task.FromResult(lista.Select(c => new Blazor.Data.SetList
 			(c.Code,c.Name)).ToArray());
 		}
-		
-		public Task<Karty[]> FindCards(string path,bool Singleton, Filter filters, bool group)
-        {
+
+		public Task<Karty[]> FindCards(string path, bool Singleton, Filter filters, bool group)
+		{
 			var subor = File.ReadAllText(@path);
 			var karty = JsonConvert.DeserializeObject<Scryfall.API.Models.Card[]>(subor, new Newtonsoft.Json.JsonSerializerSettings
 			{
@@ -74,11 +74,11 @@ namespace Blazor.Data
 			});
 			List<Scryfall.API.Models.Card> vyber = karty.ToList<Scryfall.API.Models.Card>();
 			//Card Name, Card Type, Card Text
-			vyber =(!string.IsNullOrWhiteSpace(filters.Name))?vyber.Where(c => c.Name.ToLower().Contains((filters.Name).ToLower())).ToList():vyber.ToList();
-			vyber=(!string.IsNullOrWhiteSpace(filters.CardType))?vyber.Where(c => c.TypeLine.ToLower().Contains((filters.CardType).ToLower())).ToList():vyber.ToList();
-			vyber=(!string.IsNullOrWhiteSpace(filters.Text))?vyber.Where(c => !string.ReferenceEquals(c.OracleText, null)).Where(c =>c.OracleText.ToLower().Contains((filters.Text).ToLower())).ToList():vyber.ToList();
-            //Legendary
-			vyber=(filters.Legendary)?vyber.Where(c => c.TypeLine.ToLower().Contains("Legendary".ToLower())).ToList():vyber.ToList();
+			vyber = (!string.IsNullOrWhiteSpace(filters.Name)) ? vyber.Where(c => c.Name.ToLower().Contains((filters.Name).ToLower())).ToList() : vyber.ToList();
+			vyber = (!string.IsNullOrWhiteSpace(filters.CardType)) ? vyber.Where(c => c.TypeLine.ToLower().Contains((filters.CardType).ToLower())).ToList() : vyber.ToList();
+			vyber = (!string.IsNullOrWhiteSpace(filters.Text)) ? vyber.Where(c => !string.ReferenceEquals(c.OracleText, null)).Where(c => c.OracleText.ToLower().Contains((filters.Text).ToLower())).ToList() : vyber.ToList();
+			//Legendary
+			vyber = (filters.Legendary) ? vyber.Where(c => c.TypeLine.ToLower().Contains("Legendary".ToLower())).ToList() : vyber.ToList();
 			vyber = (filters.Snow) ? vyber.Where(c => c.TypeLine.ToLower().Contains("Snow".ToLower())).ToList() : vyber.ToList();
 			//Rarity
 			List<Scryfall.API.Models.Card> vzacnost = new List<Scryfall.API.Models.Card>();
@@ -110,15 +110,15 @@ namespace Blazor.Data
 			if (filters.Fourcolor) numbers.AddRange(vyber.Where(c => c.ColorIdentity.Count() == 4).ToList());
 			if (filters.Fivecolor) numbers.AddRange(vyber.Where(c => c.ColorIdentity.Count() == 5).ToList());
 			vyber = ((filters.Colorless) || (filters.Monocolor) || (filters.Bicolor) || (filters.Tricolor) || (filters.Fourcolor) || (filters.Fivecolor)) ? numbers.ToList() : vyber.ToList();
-			if (filters.Edition != "0") vyber = (vyber.Where(c =>c.Set==filters.Edition)).ToList();
-            if (filters.Foil) vyber = (vyber.Where(c=>!string.ReferenceEquals(c.Effects,null)).Where(c => c.Effects.Contains("F"))).ToList();
+			if (filters.Edition != "0") vyber = (vyber.Where(c => c.Set == filters.Edition)).ToList();
+			if (filters.Foil) vyber = (vyber.Where(c => !string.ReferenceEquals(c.Effects, null)).Where(c => c.Effects.Contains("F"))).ToList();
 			if (filters.Showcase) vyber = (vyber.Where(c => !string.ReferenceEquals(c.Effects, null)).Where(c => c.Effects.Contains("S"))).ToList();
-			if (filters.ManaCost=="1") vyber = (vyber.Where(c => c.Cmc == 1)).ToList();
+			if (filters.ManaCost == "1") vyber = (vyber.Where(c => c.Cmc == 1)).ToList();
 			if (filters.ManaCost == "2") vyber = (vyber.Where(c => c.Cmc == 2)).ToList();
 			if (filters.ManaCost == "3") vyber = (vyber.Where(c => c.Cmc == 3)).ToList();
 			if (filters.ManaCost == "4") vyber = (vyber.Where(c => c.Cmc == 4)).ToList();
 			if (filters.ManaCost == "5") vyber = (vyber.Where(c => c.Cmc == 5)).ToList();
-			if (filters.ManaCost == "6") vyber = (vyber.Where(c => c.Cmc >5 )).ToList();
+			if (filters.ManaCost == "6") vyber = (vyber.Where(c => c.Cmc > 5)).ToList();
 			vyber = vyber.OrderBy(x => x.Name).ToList();
 			List<Scryfall.API.Models.Card> zoznam = new List<Scryfall.API.Models.Card>();
 			if (group)
@@ -137,19 +137,34 @@ namespace Blazor.Data
 							   .ToList();
 			}
 			else
-            {
-				zoznam = vyber.ToList();
-            }
-			return Task.FromResult(zoznam.Select(c => new Karty
+			{
+				int i = 0;
+				foreach (var card in vyber)
 				{
-					Url = (c.Layout == Scryfall.API.Models.Layouts.ModalDfc || c.Layout == Scryfall.API.Models.Layouts.Transform) ? c.CardFaces[0].ImageUris.Normal + '|' + c.CardFaces[1].ImageUris.Normal : c.ImageUris.Normal,
-					//string.ReferenceEquals(c.ImageUris.Normal, null)?new Uri("https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg"):new Uri(c.ImageUris.Normal),
-					Name = (!string.IsNullOrWhiteSpace(c.Effects)) ? ((!Singleton)? c.pocet + "x : " + c.Name + " - " + c.Effects: c.pocet + "x : " + c.Name) : c.pocet + "x : " + c.Name
-					//string.ReferenceEquals(c.ImageUris.Normal, null)?c.Name+"\r"+c.OracleText : c.Name
-				}).ToArray());
+					card.poradie = i;
+					i++;
+				}
+				zoznam = vyber.ToList();
+			}
+			return Task.FromResult(zoznam.Select(c => new Karty
+			{
+				Url = (c.Layout == Scryfall.API.Models.Layouts.ModalDfc || c.Layout == Scryfall.API.Models.Layouts.Transform) ? c.CardFaces[0].ImageUris.Normal + '|' + c.CardFaces[1].ImageUris.Normal : c.ImageUris.Normal,
+				//string.ReferenceEquals(c.ImageUris.Normal, null)?new Uri("https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg"):new Uri(c.ImageUris.Normal),
+				Name = group ? (!string.IsNullOrWhiteSpace(c.Effects)) ? ((!Singleton) ? c.pocet + "x : " + c.Name + " - " + c.Set + " - " + c.Effects : c.pocet + "x : " + c.Name) : c.pocet + "x : " + c.Name + " - " + c.Set : (!string.IsNullOrWhiteSpace(c.Effects)) ? c.poradie + ":" + c.Name + "-" + c.Set + "-" + c.Effects : c.poradie + ":" + c.Name + "-" + c.Set + "-"
+				//string.ReferenceEquals(c.ImageUris.Normal, null)?c.Name+"\r"+c.OracleText : c.Name
+			}).ToArray());
 
 			//.Where(c => !string.ReferenceEquals(c.Text, null))
 			//.Where(c => c.Text.ToLower().Contains("reach".ToLower()))
 		}
-    }
+    
+		public Task<string[]> Search(string name)
+        {
+			List<string> baliky = new List<string>();
+			
+
+			return Task.FromResult(baliky.ToArray());
+        }
+	
+	}
 }

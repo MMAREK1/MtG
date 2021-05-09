@@ -76,3 +76,10 @@ C:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.genruntimeconfig.cache
 C:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.csprojAssemblyReference.cache
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Move.razor.g.cs
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Move.razor.g.cs
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\skuska.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Bladewing.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\skuska2.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\zoznam.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\strixhaven.json
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\box.json
+c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Find.razor.g.cs

@@ -105,7 +105,18 @@ namespace Blazor.Data
 			int i = 0;
 			foreach (string zaznam in riadky)
 			{
-				var card = vsetky.Where(c => c.Name == zaznam).FirstOrDefault();
+				string[] info = zaznam.Split('-');
+
+				var card = info[2].Length==0?
+					vsetky.Where(c => c.Name == info[0])
+					.Where(c=>c.Set==info[1])
+					.FirstOrDefault()
+					:
+					vsetky.Where(c => c.Name == info[0])
+					.Where(c => c.Set == info[1])
+					.Where(c => c.Effects == info[2])
+					.FirstOrDefault()
+					;
 					zoznam.Add(card);
 			}
 			zoznam = zoznam.OrderBy(x => x.Name).ToList();
@@ -146,7 +157,18 @@ namespace Blazor.Data
 			string[] riadky = pridat.Split(':');
 			foreach (string zaznam in riadky)
 			{
-				var card = vsetky.Where(c => c.Name == zaznam).FirstOrDefault();
+				string[] info = zaznam.Split('-');
+
+				var card = info[2].Length == 0 ?
+					vsetky.Where(c => c.Name == info[0])
+					.Where(c => c.Set == info[1])
+					.FirstOrDefault()
+					:
+					vsetky.Where(c => c.Name == info[0])
+					.Where(c => c.Set == info[1])
+					.Where(c => c.Effects == info[2])
+					.FirstOrDefault()
+					;
 				zoznam.Add(card);
 				vsetky.Remove(card);
 			}

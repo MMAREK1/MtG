@@ -114,56 +114,56 @@ using System.Collections.Generic;
 #line 168 "C:\priestor\MTG\Blazor\Pages\Create.razor"
        
     private Blazor.Data.Karty[] cards;
-	private int CurrentPage { get; set; } = 1;
+    private int CurrentPage { get; set; } = 1;
     private int RecordsPerPage = 150;
-	private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
-	private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
-	private List<Blazor.Data.Flip> Flips = new List<Blazor.Data.Flip>{};
-	private string[] fileEntries;
-	private List<string> files=new List<string>();
-	private string subor="json\0VSETKO.json";
-	private string set;
-	private string cardName;
-	private string cardType;
-	private string cardText;
-	private int count =0;
-	private bool Common;
-	private bool Uncommon;
-	private bool Rare;
-	private bool Mythic;
-	private bool Legendary;
-	private bool Snow;
-	private bool Artifact;
-	private bool Land;
-	private bool Instant;
-	private bool Creature;
+    private List<Blazor.Data.Choice> Choices = new List<Blazor.Data.Choice>{ new Blazor.Data.Choice(1,"Je"),new Blazor.Data.Choice(2,"Moze"),new Blazor.Data.Choice(3,"Nie Je")};
+    private List<Blazor.Data.SetList> Sets = new List<Blazor.Data.SetList>{};
+    private List<Blazor.Data.Flip> Flips = new List<Blazor.Data.Flip>{};
+    private string[] fileEntries;
+    private List<string> files=new List<string>();
+    private string subor="json\0VSETKO.json";
+    private string set;
+    private string cardName;
+    private string cardType;
+    private string cardText;
+    private int count =0;
+    private bool Common;
+    private bool Uncommon;
+    private bool Rare;
+    private bool Mythic;
+    private bool Legendary;
+    private bool Snow;
+    private bool Artifact;
+    private bool Land;
+    private bool Instant;
+    private bool Creature;
     private bool Planeswalker;
-	private bool Sorcery;
-	private bool Enchantment;
-	private int White = 2;
-	private int Black = 2;
-	private int Blue = 2;
-	private int Red = 2;
-	private int Green = 2;
-	private bool Colorless;
-	private bool Monocolor;
-	private bool Bicolor;
-	private bool Tricolor;
-	private bool Fourcolor;
-	private bool Fivecolor;
-	private bool Foil;
-	private bool Showcase;
-	private bool Singleton=true;
-	private string koniec;
+    private bool Sorcery;
+    private bool Enchantment;
+    private int White = 2;
+    private int Black = 2;
+    private int Blue = 2;
+    private int Red = 2;
+    private int Green = 2;
+    private bool Colorless;
+    private bool Monocolor;
+    private bool Bicolor;
+    private bool Tricolor;
+    private bool Fourcolor;
+    private bool Fivecolor;
+    private bool Foil;
+    private bool Showcase;
+    private string koniec;
+
     void FlipMe(string name)
     {
         foreach(var zaznam in Flips)
-		{
-			if(zaznam.Name==name)
-			{
-				zaznam.Flipped=!zaznam.Flipped;
-			}
-		}
+        {
+            if(zaznam.Name==name)
+            {
+                zaznam.Flipped=!zaznam.Flipped;
+            }
+        }
     }
 
 
@@ -187,13 +187,13 @@ using System.Collections.Generic;
     string DisablePrevious {
         get {
             if (CurrentPage == 1) { return "disabled"; }
-            return ""; 
+            return "";
         }
     }
     string DisableNext {
         get {
             if (CurrentPage >= NumberOfPages()) { return "disabled"; }
-            return ""; 
+            return "";
         }
     }
 
@@ -211,173 +211,157 @@ using System.Collections.Generic;
         return cards.Skip(skip).Take(RecordsPerPage).ToList();
     }
 
-	private async Task Changed(ChangeEventArgs suborEvent)
-    {
-		set="0";
-		Sets.Clear();
-		subor=suborEvent.Value.ToString();
-		Sets.AddRange(await CardService.ListOfSets(subor));
-    }
 
     protected override async Task OnInitializedAsync()
     {
-		fileEntries = Directory.GetFiles(@"json\");
-		files = fileEntries.ToList();
-		Common=false;
-		Uncommon=false;
-		Rare=false;
-		Mythic=false;
-		Legendary=false;
-		Snow=false;
-		Artifact=false;
-		Land=false;
-		Instant=false;
-		Creature=false;
-		Planeswalker=false;
-		Sorcery=false;
-		Enchantment=false;
-		White = 2;
-		Black = 2;
-		Blue = 2;
-		Red = 2;
-		Green = 2;
-		Colorless=false;
-		Monocolor=false;
-		Bicolor=false;
-		Tricolor=false;
-		Fourcolor=false;
-		Fivecolor=false;
-		Showcase=false;
-		Foil=false;
-		set="0";
-		cardName="";
-		cardType="";
-		cardText="";
-		CurrentPage=1;
-		subor=fileEntries[0];
+        fileEntries = Directory.GetFiles(@"json\");
+        files = fileEntries.ToList();
+        Common=false;
+        Uncommon=false;
+        Rare=false;
+        Mythic=false;
+        Legendary=false;
+        Snow=false;
+        Artifact=false;
+        Land=false;
+        Instant=false;
+        Creature=false;
+        Planeswalker=false;
+        Sorcery=false;
+        Enchantment=false;
+        White = 2;
+        Black = 2;
+        Blue = 2;
+        Red = 2;
+        Green = 2;
+        Colorless=false;
+        Monocolor=false;
+        Bicolor=false;
+        Tricolor=false;
+        Fourcolor=false;
+        Fivecolor=false;
+        Showcase=false;
+        Foil=false;
+        set="0";
+        cardName = "";
+        cardType = "";
+        cardText = "";
+        koniec = "";
+        CurrentPage=1;
+        subor=fileEntries[0];
         cards = await CardService.FindCards(subor,true, new Blazor.Data.Filter{
-			Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
-			CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
-			Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
-			Legendary=Legendary,
-			Snow=Snow,
-			Rarita= new Blazor.Data.Rarity{
-			Common=Common,
-			Uncommon=Uncommon,
-			Rare=Rare,
-			Mythic=Mythic
-			},
-			Typy=new Blazor.Data.Type{
-				Artifact=Artifact,
-				Land=Land,
-				Instant=Instant,
-				Creature=Creature,
-				Planeswalker=Planeswalker,
-				Sorcery=Sorcery,
-				Enchantment=Enchantment
-			},
-			Colors= new Blazor.Data.Color{
-			White= White,
-			Black=Black,
-			Blue=Blue,
-			Red=Red, 
-			Green=Green,
-			},
-			Colorless=Colorless,
-			Monocolor=Monocolor,
-			Bicolor=Bicolor,
-			Tricolor=Tricolor,
-			Fourcolor=Fourcolor,
-			Fivecolor=Fivecolor,
-			Foil=Foil,
-			Showcase=Showcase,
-			Edition=set,
-	ManaCost="0"
-		});
-		Sets.Clear();
-		Sets.AddRange(await CardService.ListOfSets(subor));
-		Flips.Clear();
-	foreach(var card in  cards)
-	{
-		Flips.Add( new Blazor.Data.Flip(card.Name,false));
-	}
-		count=cards.Length;
-    }
-	
-	string whiteId;
-
-    string WhiteID
-    {
-        get => whiteId;
-        set
+            Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
+            CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
+            Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
+            Legendary=Legendary,
+            Snow=Snow,
+            Rarita= new Blazor.Data.Rarity{
+                Common=Common,
+                Uncommon=Uncommon,
+                Rare=Rare,
+                Mythic=Mythic
+            },
+            Typy=new Blazor.Data.Type{
+                Artifact=Artifact,
+                Land=Land,
+                Instant=Instant,
+                Creature=Creature,
+                Planeswalker=Planeswalker,
+                Sorcery=Sorcery,
+                Enchantment=Enchantment
+            },
+            Colors= new Blazor.Data.Color{
+                White= White,
+                Black=Black,
+                Blue=Blue,
+                Red=Red,
+                Green=Green,
+            },
+            Colorless=Colorless,
+            Monocolor=Monocolor,
+            Bicolor=Bicolor,
+            Tricolor=Tricolor,
+            Fourcolor=Fourcolor,
+            Fivecolor=Fivecolor,
+            Foil=Foil,
+            Showcase=Showcase,
+            Edition=set,
+            ManaCost="0"
+        }, false);
+        Sets.Clear();
+        Sets.AddRange(await CardService.ListOfSets(subor));
+        Flips.Clear();
+        foreach(var card in  cards)
         {
-            whiteId = value;
-
+            Flips.Add( new Blazor.Data.Flip(card.Name,false));
         }
+        count=cards.Length;
     }
-	
-	private async Task Save()
-	{
-		string karty="";
-	foreach(var zaznamstavu in Flips)
-	{	
-		if(zaznamstavu.Flipped)
-	{
-	karty+=zaznamstavu.Name.Substring(zaznamstavu.Name.IndexOf(':')+2);
-	karty+=":";
-	}
-	}
-	karty=karty.Remove(karty.Length - 1);
-		koniec = await PridatService.ChoosenCards(karty);
-	}
 
-	private async Task FindCards()
+
+    private async Task Save()
     {
-		CurrentPage=1;
-        cards = await CardService.FindCards(subor,Singleton, new Blazor.Data.Filter{
-			Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
-			CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
-			Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
-			Legendary=Legendary,
-			Snow=Snow,
-			Rarita= new Blazor.Data.Rarity{
-			Common=Common,
-			Uncommon=Uncommon,
-			Rare=Rare,
-			Mythic=Mythic
-			},
-			Typy=new Blazor.Data.Type{
-				Artifact=Artifact,
-				Land=Land,
-				Instant=Instant,
-				Creature=Creature,
-				Planeswalker=Planeswalker,
-				Sorcery=Sorcery,
-				Enchantment=Enchantment
-			},
-			Colors= new Blazor.Data.Color{
-			White= White,
-			Black=Black,
-			Blue=Blue,
-			Red=Red, 
-			Green=Green,
-			},
-			Colorless=Colorless,
-			Monocolor=Monocolor,
-			Bicolor=Bicolor,
-			Tricolor=Tricolor,
-			Fourcolor=Fourcolor,
-			Fivecolor=Fivecolor,
-			Foil=Foil,
-			Showcase=Showcase,
-			Edition=set
-		});
-		Flips.Clear();
-		foreach(var card in  cards)
-		{
-			Flips.Add( new Blazor.Data.Flip(card.Name,false));
-		}
-       count=cards.Length; 
+        string karty = "";
+        foreach (var zaznamstavu in Flips)
+        {
+            if (zaznamstavu.Flipped)
+            {
+                karty += zaznamstavu.Name.Substring(zaznamstavu.Name.IndexOf(':') + 1);
+                karty += ":";
+            }
+        }
+        karty = karty.Remove(karty.Length - 1);
+        koniec = await PridatService.ChoosenCards(karty,subor);
+    }
+
+    private async Task FindCards()
+    {
+        koniec = "";
+        CurrentPage=1;
+        cards = await CardService.FindCards(subor,false, new Blazor.Data.Filter{
+            Name=!string.IsNullOrWhiteSpace(cardName)?cardName:null,
+            CardType=!string.IsNullOrWhiteSpace(cardType)?cardType:null,
+            Text=!string.IsNullOrWhiteSpace(cardText)?cardText:null,
+            Legendary=Legendary,
+            Snow=Snow,
+            Rarita= new Blazor.Data.Rarity{
+                Common=Common,
+                Uncommon=Uncommon,
+                Rare=Rare,
+                Mythic=Mythic
+            },
+            Typy=new Blazor.Data.Type{
+                Artifact=Artifact,
+                Land=Land,
+                Instant=Instant,
+                Creature=Creature,
+                Planeswalker=Planeswalker,
+                Sorcery=Sorcery,
+                Enchantment=Enchantment
+            },
+            Colors= new Blazor.Data.Color{
+                White= White,
+                Black=Black,
+                Blue=Blue,
+                Red=Red,
+                Green=Green,
+            },
+            Colorless=Colorless,
+            Monocolor=Monocolor,
+            Bicolor=Bicolor,
+            Tricolor=Tricolor,
+            Fourcolor=Fourcolor,
+            Fivecolor=Fivecolor,
+            Foil=Foil,
+            Showcase=Showcase,
+            Edition=set
+        }, false);
+        Flips.Clear();
+        foreach(var card in  cards)
+        {
+            Flips.Add( new Blazor.Data.Flip(card.Name,false));
+        }
+        count=cards.Length;
     }
 
 #line default
