@@ -111,7 +111,7 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 70 "c:\priestor\MTG\Blazor\Pages\Find.razor"
+#line 64 "c:\priestor\MTG\Blazor\Pages\Find.razor"
        
     private Blazor.Data.Karty[] cards;
     private int CurrentPage { get; set; } = 1;
@@ -186,7 +186,7 @@ using System.Collections.Generic;
     private async Task FindCards()
     {
         CurrentPage=1;
-        cards = await CardService.Search(!string.IsNullOrWhiteSpace(cardName) ? cardName : null);
+        //cards = await CardService.Search(!string.IsNullOrWhiteSpace(cardName) ? cardName : null);
        count=cards.Length; 
     }
 

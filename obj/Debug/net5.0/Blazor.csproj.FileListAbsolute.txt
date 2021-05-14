@@ -83,3 +83,4 @@ c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\zoznam.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\strixhaven.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\box.json
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Find.razor.g.cs
+c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Find.razor.g.cs
