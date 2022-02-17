@@ -82,3 +82,6 @@ C:\priestor\MTG\Blazor\bin\Release\net5.0\json\strixhaven.json
 C:\priestor\MTG\Blazor\bin\Release\net5.0\json\zoznam.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\Move.razor.g.cs
 C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\Move.razor.g.cs
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\zoznam2.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\Find.razor.g.cs
+C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\Find.razor.g.cs

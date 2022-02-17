@@ -50,7 +50,9 @@ namespace Scryfall.API.Models
         [EnumMember(Value = "modal_dfc")]
         ModalDfc,
         [EnumMember(Value = "adventure")]
-        Adventure
+        Adventure,
+        [EnumMember(Value = "class")]
+        Class
     }
     internal static class LayoutsEnumExtension
     {
@@ -97,6 +99,8 @@ namespace Scryfall.API.Models
                     return "modal_dfc";
                 case Layouts.Adventure:
                     return "adventure";
+                case Layouts.Class:
+                    return "class";
             }
             return null;
         }
@@ -139,6 +143,8 @@ namespace Scryfall.API.Models
                     return Layouts.ModalDfc;
                 case "adventure":
                     return Layouts.Adventure;
+                case "class":
+                    return Layouts.Class;
             }
             return null;
         }

@@ -27,6 +27,7 @@ C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\strixhaven.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Tiana.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Yuriko.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\zoznam.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\zoznam2.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.dll
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.deps.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.runtimeconfig.json
