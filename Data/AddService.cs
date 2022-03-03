@@ -92,7 +92,9 @@ namespace Blazor.Data
 
 			List<Scryfall.API.Models.Card> zoznam = karty.ToList<Scryfall.API.Models.Card>();
 
-			var subor2 = File.ReadAllText(@"json/000.json");
+			string[] fileEntries = Directory.GetFiles(@"json\");
+			
+			var subor2 = File.ReadAllText(fileEntries[0]);
 			var karty2 = JsonConvert.DeserializeObject<Scryfall.API.Models.Card[]>(subor2, new Newtonsoft.Json.JsonSerializerSettings
 			{
 				TypeNameHandling = Newtonsoft.Json.TypeNameHandling.Auto,

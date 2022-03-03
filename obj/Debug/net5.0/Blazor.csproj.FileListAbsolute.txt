@@ -1,11 +1,5 @@
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\appsettings.Development.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\appsettings.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\0VSETKY.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Dodo.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Horde of Notions.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\modry.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Tiana.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Yuriko.json
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\Blazor.StaticWebAssets.xml
 c:\priestor\MTG\Blazor\bin\Debug\net5.0\Blazor.exe
 C:\priestor\MTG\Blazor\bin\Debug\net5.0\Blazor.deps.json
@@ -76,14 +70,7 @@ C:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.genruntimeconfig.cache
 C:\priestor\MTG\Blazor\obj\Debug\net5.0\Blazor.csprojAssemblyReference.cache
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Move.razor.g.cs
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Move.razor.g.cs
-C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\skuska.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Bladewing.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\skuska2.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\zoznam.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\strixhaven.json
-c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\box.json
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Find.razor.g.cs
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Find.razor.g.cs
-C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\zoznam2.json
-C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\000.json
-C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\test.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\All.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Lathiel.json

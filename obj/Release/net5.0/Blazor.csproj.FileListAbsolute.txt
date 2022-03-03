@@ -1,11 +1,5 @@
 c:\priestor\MTG\Blazor\bin\Release\net5.0\appsettings.Development.json
 c:\priestor\MTG\Blazor\bin\Release\net5.0\appsettings.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\0VSETKY.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\Dodo.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\Horde of Notions.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\modry.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\Tiana.json
-c:\priestor\MTG\Blazor\bin\Release\net5.0\json\Yuriko.json
 c:\priestor\MTG\Blazor\bin\Release\net5.0\Blazor.StaticWebAssets.xml
 c:\priestor\MTG\Blazor\bin\Release\net5.0\Blazor.exe
 C:\priestor\MTG\Blazor\bin\Release\net5.0\Blazor.deps.json
@@ -74,14 +68,13 @@ c:\priestor\MTG\Blazor\obj\Release\net5.0\Blazor.dll
 c:\priestor\MTG\Blazor\obj\Release\net5.0\ref\Blazor.dll
 c:\priestor\MTG\Blazor\obj\Release\net5.0\Blazor.pdb
 C:\priestor\MTG\Blazor\obj\Release\net5.0\Blazor.genruntimeconfig.cache
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Bladewing.json
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\box.json
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\skuska.json
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\skuska2.json
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\strixhaven.json
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\zoznam.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\Move.razor.g.cs
 C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\Move.razor.g.cs
-C:\priestor\MTG\Blazor\bin\Release\net5.0\json\zoznam2.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\Find.razor.g.cs
 C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\Find.razor.g.cs
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\All.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Lathiel.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Bladewing.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Horde of Notions.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Tiana.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Yuriko.json

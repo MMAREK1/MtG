@@ -133,20 +133,7 @@ else
     {
 		@if(image.Url.IndexOf('|') != -1)
 	    {
-	        <div class="card-container" @onclick="FlipMe">
-                <div class="card-flip @flipCss">
-                    <!-- Card 2 Front -->
-                    <div class="card front">
-                        <img src="@image.Url.Substring(0,image.Url.IndexOf('|'))" title="@image.Name" width="265" height="370" />
-                    </div>
-                    <!-- End Card 2 Front -->
-                    <!-- Card 2 Back -->
-                    <div class="card back">
-                        <img src="@image.Url.Substring(image.Url.IndexOf('|')+1)" title="@image.Name" width="265" height="370" />
-                    </div>
-                    <!-- End Card 2 Back -->
-                </div>
-            </div>
+			<a href="@image.Url.Substring(image.Url.IndexOf('|')+1)" target="_blank"><img src="@image.Url.Substring(0,image.Url.IndexOf('|'))" title="@image.Name" width="265" height="370" /></a>
 	    }
 	    else
 	    {

@@ -15,19 +15,12 @@ C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\wwwroot\favicon.ico
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\wwwroot\inputfile.js
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\appsettings.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\0VSETKY.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\All.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Bladewing.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\box.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Dodo.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Horde of Notions.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\modry.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\skuska.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\skuska2.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\strixhaven.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Lathiel.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Tiana.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Yuriko.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\zoznam.json
-C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\zoznam2.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.dll
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.deps.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.runtimeconfig.json

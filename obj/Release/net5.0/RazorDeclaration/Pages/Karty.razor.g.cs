@@ -111,7 +111,7 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 164 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
+#line 151 "C:\priestor\MTG\Blazor\Pages\Karty.razor"
        
     private Blazor.Data.Karty[] cards;
 	private int CurrentPage { get; set; } = 1;
