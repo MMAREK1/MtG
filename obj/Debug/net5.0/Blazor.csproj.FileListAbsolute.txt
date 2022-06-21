@@ -74,3 +74,10 @@ c:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\Find.razor.g.cs
 c:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\Find.razor.g.cs
 C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\All.json
 C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Lathiel.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Bladewing.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Horde of Notions.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Tiana.json
+C:\priestor\MTG\Blazor\bin\Debug\net5.0\json\Yuriko.json
+C:\priestor\MTG\Blazor\obj\Debug\net5.0\RazorDeclaration\Pages\AddSpecial.razor.g.cs
+C:\priestor\MTG\Blazor\obj\Debug\net5.0\Razor\Pages\AddSpecial.razor.g.cs
+c:\priestor\MTG\Blazor\bin\Debug\net5.0\json\nihiloor.json

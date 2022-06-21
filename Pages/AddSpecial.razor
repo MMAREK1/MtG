@@ -1,0 +1,102 @@
+﻿@page "/AddSpecial"
+
+@using Blazor.Data
+@using System.IO;
+@using System.Collections.Generic;
+@using BlazorInputFile;
+@inject AddService PridatService
+@inject IJSRuntime jsRuntime
+
+<h1>Pridat Nove Karty</h1>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+            <BlazorInputFile.InputFile OnChange="HandleFileSelected" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <select name="Zdroj" @bind="@subor">
+                @foreach (var file in files)
+                {
+                    <option value="@file"> @file.Substring(file.IndexOf('\\') + 1) </option>
+                }
+            </select>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            <button @onclick="FindCard">Add</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            @status
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+            @if (koniec != null)
+            {
+                <p><em>Skoncilo</em></p>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@code {
+    private string koniec;
+    private string zoznam;
+    private List<string> files = new List<string>();
+    private string subor;
+    private string[] fileEntries;
+
+    string status;
+    IFileListEntry file;
+
+    void HandleFileSelected(IFileListEntry[] files)
+    {
+        file = files.FirstOrDefault();
+        status = "Subor pripraveny "+file.Name;
+        koniec = null;
+    }
+
+    async Task CountLines()
+    {
+        List<string> zoznam = new List<string>();
+        using (var reader = new System.IO.StreamReader(file.Data))
+        {
+            Console.WriteLine("reader");
+            string riadok;
+            while ((riadok = await reader.ReadLineAsync())!=null)
+            {
+                zoznam.Add(riadok);
+                Console.WriteLine("riadok");
+            }
+        }
+        Console.WriteLine("pred");
+        koniec = await PridatService.AddListCards(subor, zoznam);
+        status = null;
+    }
+
+    async Task FindCard()
+        {
+
+        }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await jsRuntime.InvokeAsync<bool>("ResizeTextArea", "Comments");
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        fileEntries = Directory.GetFiles(@"json\");
+        files = fileEntries.ToList();
+        subor = fileEntries[0];
+    }
+}

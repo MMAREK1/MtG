@@ -146,6 +146,7 @@ namespace Blazor.Data
 				}
 				zoznam = vyber.ToList();
 			}
+			zoznam = (Singleton) ? zoznam.OrderByDescending(x =>x.pocet).ToList(): zoznam.ToList();
 			return Task.FromResult(zoznam.Select(c => new Karty
 			{
 				Url = (c.Layout == Scryfall.API.Models.Layouts.ModalDfc || c.Layout == Scryfall.API.Models.Layouts.Transform) ? c.CardFaces[0].ImageUris.Normal + '|' + c.CardFaces[1].ImageUris.Normal : c.ImageUris.Normal,
