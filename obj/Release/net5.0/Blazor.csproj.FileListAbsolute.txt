@@ -78,3 +78,10 @@ C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Bladewing.json
 C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Horde of Notions.json
 C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Tiana.json
 C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Yuriko.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\Emperor.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\feldon.json
+C:\priestor\MTG\Blazor\bin\Release\net5.0\json\nihiloor.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\AddSpecial.razor.g.cs
+C:\priestor\MTG\Blazor\obj\Release\net5.0\RazorDeclaration\Pages\Duplicates.razor.g.cs
+C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\AddSpecial.razor.g.cs
+C:\priestor\MTG\Blazor\obj\Release\net5.0\Razor\Pages\Duplicates.razor.g.cs

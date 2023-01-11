@@ -17,8 +17,11 @@ C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\appsettings.Development.jso
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\appsettings.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\All.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Bladewing.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Emperor.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\feldon.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Horde of Notions.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Lathiel.json
+C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\nihiloor.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Tiana.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\json\Yuriko.json
 C:\priestor\MTG\Blazor\obj\Release\net5.0\PubTmp\Out\Blazor.dll

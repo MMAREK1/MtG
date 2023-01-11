@@ -107,7 +107,7 @@ namespace Blazor.Data
 			int i = 0;
 			foreach (string zaznam in riadky)
 			{
-				string[] info = zaznam.Split('-');
+				string[] info = zaznam.Split(" _ ");
 
 				var card = info[2].Length==0?
 					vsetky.Where(c => c.Name == info[0])
@@ -159,7 +159,7 @@ namespace Blazor.Data
 			string[] riadky = pridat.Split(':');
 			foreach (string zaznam in riadky)
 			{
-				string[] info = zaznam.Split('-');
+				string[] info = zaznam.Split(" _ ");
 
 				var card = info[2].Length == 0 ?
 					vsetky.Where(c => c.Name == info[0])

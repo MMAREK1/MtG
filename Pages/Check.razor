@@ -1,0 +1,71 @@
+﻿@page "/vlastnim"
+
+@using Blazor.Data
+@inject CheckService CardCheck
+<h3>Check</h3>
+<input @bind="MainText" class="col-10" />
+<br>
+
+<button @onclick="CheckCards" style="display: inline-block;">Filter</button>
+<br />
+<br />
+<br />
+<br />
+@if (navyse == null)
+{
+    <p><em>Waitting...</em></p>
+}
+else
+{
+    <p>
+        <em>
+            Navyse:
+        </em>
+    </p>
+    @foreach (string karta in navyse)
+    {
+        @karta
+        <br />
+    }
+    <br />
+    <br />
+    <br />
+    <p>
+        <em>
+            Mam:
+        </em>
+    </p>
+    @foreach (string karta in vlastnim)
+    {
+        @karta
+        <br />
+    }
+    <br />
+    <br />
+    <br />
+    <p>
+        <em>
+            Nemam:
+        </em>
+    </p>
+    @foreach (string karta in nemam)
+    {
+        @karta
+        <br />
+    }
+}
+
+@code {
+
+    private string MainText { get; set; }
+    private String[] navyse;
+    private String[] vlastnim;
+    private String[] nemam;
+
+    private async Task CheckCards()
+    {
+        navyse = await CardCheck.FindMatch(MainText);
+        vlastnim = await CardCheck.FindMam(MainText);
+        nemam = await CardCheck.FindNemam(MainText);
+    }
+}
